@@ -546,15 +546,15 @@ Which two statements about IPv4 and IPv6 networks are true? (Choose two.)
 
 A. In IPv6, hosts perform fragmentation.
 
-D B. IPv6 uses a UDP checksum to verify packet integrity.
+B. IPv6 uses a UDP checksum to verify packet integrity.
 
-D C. In IPv6, routers perform fragmentation.
+C. In IPv6, routers perform fragmentation.
 
-C D. In IPv4, fragmentation is performed by the source of the packet.
+D. In IPv4, fragmentation is performed by the source of the packet.
 
-D E. IPv4 uses an optional checksum at the transport layer.
+E. IPv4 uses an optional checksum at the transport layer.
 
-D F. IPv6 uses a required checksum at the network layer.
+F. IPv6 uses a required checksum at the network layer.
 
 Answer: AB
 
@@ -644,7 +644,7 @@ Answer: D
 
 ## Q33.
 
-Which statement about a Cisco APIC controller versus a more traditional SON controller is true?
+Which statement about a Cisco APIC controller versus a more traditional SDN controller is true?
 
 A. APIC uses a policy agent to translate policies into instructions.
 
@@ -804,7 +804,9 @@ Answer: AB
 
 Which two statements about 802.1Q tunneling are true? (Choose two.)
 
-A. It requires a system MTU of at least 1504 bytes. D B. The default configuration sends Cisco Discovery Protocol, STP, and VTP information.
+A. It requires a system MTU of at least 1504 bytes.
+
+B. The default configuration sends Cisco Discovery Protocol, STP, and VTP information.
 
 C. Traffic that traverses the tunnel is encrypted.
 
@@ -864,7 +866,7 @@ Answer C
 
 ## Q44.
 
-Which three values are used to generate a unique bridge ID for each VLAIN in PVST+? (Choose three)
+Which three values are used to generate a unique bridge ID for each VLAN in PVST+? (Choose three)
 
 A. port cost
 
