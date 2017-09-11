@@ -3638,13 +3638,13 @@ Answer: B
 
 A. The R1 to R2 adjacency will be L2 only
 
-B. The R1 to R3 adjacency will be L 1 and L2
+B. The R1 to R3 adjacency will be L1 and L2
 
-C. The R1 to R2 adjacency will be L 1 and L2
+C. The R1 to R2 adjacency will be L1 and L2
 
-D. The R2 to R3 adjacency will be L 1 and L2
+D. The R2 to R3 adjacency will be L1 and L2
 
-E. The R2 to R3 adjacency will be L 1 only
+E. The R2 to R3 adjacency will be L1 only
 
 Answer: AD
 
@@ -3698,8 +3698,80 @@ B. It can be disabled globally and then enabled on individual VLANs
 
 C. Global configurations override VLAN configurations
 
-D. It can be enabled on VlANs 1 through 1001 only
+D. It can be enabled on VLANs 1 through 1001 only
 
 E. VLAN query values override global values
 
 Answer: DE
+
+## D&D 1.
+
+![exhibit](exhibits/q188.jpg)
+
+## D&D 2.
+
+![exhibit](exhibits/q192.jpg)
+
+## D&D 3.
+
+![exhibit](exhibits/q196.jpg)
+
+## D&D 4.
+
+![exhibit](exhibits/q198.jpg)
+
+## D&D 5.
+
+![exhibit](exhibits/q200.jpg)
+
+## D&D 6.
+
+![exhibit](exhibits/q202.jpg)
+
+## D&D 7.
+
+![exhibit](exhibits/q204.jpg)
+
+## D&D 8.
+
+![exhibit](exhibits/q206.jpg)
+
+## D&D 9.
+
+![exhibit](exhibits/q208.jpg)
+
+## D&D 10.
+
+![exhibit](exhibits/q212.jpg)
+
+## D&D 11.
+
+![exhibit](exhibits/q216.jpg)
+
+## D&D 12.
+
+![exhibit](exhibits/q218.jpg)
+
+## D&D 13.
+
+![exhibit](exhibits/q220.jpg)
+
+## D&D 14.
+
+![exhibit](exhibits/q222.jpg)
+
+## D&D 15.
+
+![exhibit](exhibits/q224.jpg)
+
+## D&D 16.
+
+![exhibit](exhibits/q226.jpg)
+
+## D&D 17.
+
+![exhibit](exhibits/q228.jpg)
+
+## D&D 18.
+
+![exhibit](exhibits/q230.jpg)
