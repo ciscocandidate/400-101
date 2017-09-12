@@ -2067,7 +2067,9 @@ C. The LSP originated on the router where the command is being executed
 
 D. The LSP originated on a router which is capable of wide metrics
 
-Answer: D
+Answer: C
+
+Usefull Link: https://www.cisco.com/c/en/us/td/docs/ios/iproute_isis/command/reference/irs_book/irs_is2.html
 
 
 
@@ -3411,7 +3413,7 @@ Answer: A
 
 Which two statements about GLBP are true ? (Choose  two.)
 
-A. Each GLBP group supports up to MAC addresses.
+A. Each GLBP group supports up 4 to MAC addresses.
 
 B. It uses Hello, Request, and Reply packet types.
 
@@ -3423,6 +3425,7 @@ E. It supports stateful switchover
 
 Answer: AB
 
+Usefull Link: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipapp_fhrp/configuration/xe-3s/fhp-xe-3s-book/fhp-glbp.pdf
 
 
 
@@ -3543,7 +3546,7 @@ E . When you enable sequence numbers, the datetime timestamp is disabled automat
 
 F. A log message's facility value indicates the hardware on which the log message was generated
 
-Answer: CE
+Answer: CE (Suggested A,C)
 
 
 
