@@ -3573,6 +3573,7 @@ F. The route reflector will not reflect routes from R3 to R1
 Answer: ACE (Suggested B,C,E)
 
 Usefull Link: https://www.cisco.com/c/m/en_us/techdoc/dc/reference/cli/n5k/commands/client-to-client-reflection.html
+https://tools.ietf.org/html/rfc4456#section-6
 
 ## Q181.
 
