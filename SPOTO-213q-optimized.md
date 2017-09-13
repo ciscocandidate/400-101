@@ -89,10 +89,9 @@ C. Codepoint
 
 D. IP-precedence
 
-Answer: A
+Answer: B
 
-  
-
+ Usefull Link:  https://www.cisco.com/en/US/technologies/tk543/tk766/technologies_white_paper09186a00800a3e2f.html
 
 
 ## Q6.
@@ -113,10 +112,9 @@ E. The dynamic routing protocol configuration is missing.
 
 F. IP CEF is disabled on the  remote router.
 
-Answer: CD
+Answer: BD
 
-
-
+Explanation: The problem with configuring a broadcast interface as next-hop is that in the absence of a next-hop address, the router will issue an ARP request for the destination IP 10.3.3.3 - you can see that being done in the ARP debug in the exhibit.  The only way that could work for a non-connected prefix is if an attached router with a known route to that subnet had proxy-ARP configured, in which case it would reply to the ARP request with its own information and forward the packet on.  I've seen this one in production.
 
 
 ## Q7.
@@ -1441,7 +1439,7 @@ E. passive/passive
 
 F . active/active
 
-Answer: GDF
+Answer: CDF
 
 
 
@@ -3189,7 +3187,7 @@ D. CS4
 
 Answer: D
 
-
+Explanation: TOS 80 Hex in decimal is 128, convert TOS to decimal divide by 4 = 32, decimal 32 = CS4
 
 ## Q163.
 
@@ -3335,10 +3333,9 @@ D. combined monitoring
 
 E. special monitoring
 
-Answer: B
+Answer: B (Suggested E)
 
-
-
+Usefull Link: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/pfr/configuration/15-mt/pfr-15-mt-book/pfr-understand.pdf
 
 
 ## Q170.
