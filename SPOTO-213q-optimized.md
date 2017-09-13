@@ -2705,7 +2705,7 @@ Answer: AE
 
 ![exhibit](exhibits/q138.jpg)
 
-Refer to the exhibit. Between which routers is an LOP session established?
+Refer to the exhibit. Between which routers is an LDP session established?
 
 A. R1 and R3
 
@@ -2715,9 +2715,9 @@ C. R2 and R3
 
 D. R1 and R2
 
-Answer: D
+Answer: A
 
-
+Explanation: for the LDP session to mount peer need a route to the router-id, since the middle router "R1" is forcing to F0/1 and no IGP seems to be in place the only session would be between the leftmove and the middle one (R1 and R3)
 
 ## Q139.
 
