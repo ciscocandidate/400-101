@@ -751,7 +751,7 @@ D. Two or more VRFs can be assigned to a single Layer 3 interface
 
 E. At least one physical interface must be configured to enable a VRF
 
-Answer: AB
+Answer: AC
 
  
 
