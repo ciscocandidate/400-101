@@ -2717,7 +2717,7 @@ D. R1 and R2
 
 Answer: A
 
-Explanation: for the LDP session to mount peer need a route to the router-id, since the middle router "R1" is forcing to F0/1 and no IGP seems to be in place the only session would be between the leftmove and the middle one (R1 and R3)
+Explanation: for the LDP session to mount peer need a route to the router-id, since the middle router "R1" is forcing to F0/1 and no IGP seems to be in place the only session would be between the leftmost and the middle one (R1 and R3)
 
 ## Q139.
 
