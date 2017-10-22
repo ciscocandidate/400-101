@@ -741,7 +741,7 @@ Answer: B
 
 Which two statements about VRF lite  are  true? (Choose two)
 
-A. An isolated VRF routing table is created for each VR F.
+A. An isolated VRF routing table is created for each VRF.
 
 B. A single customer VRF can support overlapping IP addresses
 
@@ -3701,6 +3701,112 @@ D. It can be enabled on VLANs 1 through 1001 only
 E. VLAN query values override global values
 
 Answer: DE
+
+## Q188.
+
+Which two statements correctly describe LISP? (choose two)
+
+A. LISP-capable devices can extend LISP functionality to legacy non-LISP-capable devices.
+
+B. It uses UDP to transport control packets
+
+C. LISP-capable devices can only interoperate with other LISP-capable devices
+
+D. It uses RLOC in place of IP addresses to route traffic across the Internet
+
+E. LISP-encapsulated user data packets are created by ETRs
+
+F. It uses TCP is send data messages
+
+Corrected Answer: AB
+
+https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/locator-id-separation-protocol-lisp/white_paper_c11-652502.html
+
+## Q189.
+
+A network controller has been configured to use REST, SOAP, NETCONF, and RESTCONF. Which of the APIs are southbound and which are northbound.
+
+A. REST and SOAP are northbound, NETCONF and RESTCONF are southbound
+
+B. REST and RESTCONF are southbound, NETCONF and SOAP are northbound
+
+C. REST and SOAP are southbound,  NETCONF and RESTCONF are northbound
+
+D. REST and RESTCONF are northbound, NETCONF and SOAP are southbound
+
+Answer: A
+
+## Q190.
+
+Which two combined configuration changes must you make so that the multilink1 operates at 6176 kbit/sec? (choose two)
+
+A. On R2, remove the ppp authentication pap command under the s3/1 interface.
+
+B. On R2, add the ppp pap sent-username Cisco password cisco command under the s3/1 interface
+
+C. Remove CHAP authentication from s3/0 interface on R1
+
+D. Change the username on R1 to R2 and change the username on R2 to R1
+
+E. Enable CHAP authentication on the Multilink1 interface on R1 and R2
+
+Corrected Answer: AB
+
+## Q191.
+
+What are two requirements for configuring a basic MPLS domain? (choose two)
+
+A. Enable an IGP
+
+B. Define route-distinguishers and route targets
+
+C. Define a VPN index
+
+D. Disable dCEF
+
+E. Enable LDP
+
+F. Define VRFs
+
+Answer: AE
+
+## Q192.
+
+What OSPF interface config command can be used to suppress unnecessary flooding every 30 minutes of LSAs in stable topologies?
+
+A. ip ospf database max-age
+
+B. ip ospf do-not-age
+
+C. ip ospf triggered
+
+D. ip ospf flood-reduction
+
+Answer: D
+
+## Q193.
+
+Which two statements about IGMP proxy are true? (choose two)
+
+A. The IP IGMP helper-address udl and ip igmp proxy service commands enable UDLR with proxy support.
+
+B.   Traditional UDLD scenarios require an IGMP proxy to support directly-connected receivers
+
+C.   When the IP IGMP helper-address udl commands is configured, upstream devices can helper reports received from downstream hosts.
+
+D. It requires IGMP UDLs  on upstream and downstream devices
+
+Answer: AC
+
+IP Packet attributes used by NetFlow:
+• IP source address
+• IP destination address
+• source port
+• Destination port
+• Layer 3 protocol type
+• Class of Service
+• Router or switch interface
+
 
 ## D&D 1.
 
