@@ -14,7 +14,7 @@ Answer:  A, B
 
 ## Q2 
 Refer to the exhibit. Which three statements correctly describe the route reflector's behavior? (Choose two.) 
-![exibit][q2]
+![exhibit][q2]
   
 A.The route reflector will not reflect routes from R3 to R1    
 B.The route reflector will reflect routes from R3 to R1    
@@ -68,7 +68,7 @@ Answer:  A
 ---
 
 ## Q6 
-![exibit][q6]
+![exhibit][q6]
 R1 is performing mutual redistribution, but OSPF routes from R3 are unable to reach R2. Which three options are possible reasons for this behavior? (Choose three.) 
   
 A.R1 requires a seed metric to redistribute RIP.    
@@ -122,7 +122,7 @@ Answer:  C
 
 ## Q10
 Drag and drop each IPv6 tunnel type from the left onto the matching description on the right. 
-![exibit][q10]
+![exhibit][q10]
 
 Answer: 6to4 6RD ISATAP IPv4-compatable GRE Manual 
 
@@ -142,7 +142,7 @@ Answer:  D
 
 ## Q12 
 Refer to the exhibit. Which statement about the R1 configuration is true? 
-![exibit][q12]
+![exhibit][q12]
   
 A.It permits host 10.1.1.2 to establish a Telnet connection to R1.    
 B.It limits remote hosts to two SSH connection attempts.    
@@ -223,7 +223,7 @@ URL: http://www.ciscopress.com/articles/article.asp?p=345618&seqNum=5
 
 ## Q18 
 Drag each OSPFv2 SA parameter on the left to its, corresponding description on the right 
-![exibit][q18]
+![exhibit][q18]
 
 Answer: KeyID Key Start generate Key Stop Accept Authentication key Key Stop Generate Authentication Algorithm Start Accept 
 
@@ -255,7 +255,7 @@ Answer:  C
 
 ## Q21 
 Refer to the exhibit. Which two statements about the output are true? (Choose two.) 
-![exibit][q21]
+![exhibit][q21]
 
 A.This switch is the root bridge for VLAN 1    
 B.Setting the priority of this switch to 0 for VLAN 1 would cause it to become the new root.    
@@ -282,7 +282,7 @@ URL: https://www.cisco.com/c/en/us/support/docs/ip/integrated-intermediate-syste
 
 ## Q23
 Refer to the exhibit, which two options are problems that can occur with this configuration? (Choose two) 
-![exibit][q23]
+![exhibit][q23]
   
 A.The label for the R5 loopback address is filtered from other MPLS routers    
 B.MPLS traffic from R1 to R5 takes a suboptimal path    
@@ -297,10 +297,10 @@ Answer:  A, C
 ## Q24
 Which configuration can you implement on PE-1 to allow CE-1 to receive delegated IPv6 prefixes
   
-A.![exibit][q24a]  
-B.![exibit][q24b]  
-C.![exibit][q24c]  
-D.![exibit][q24d]  
+A.![exhibit][q24a]  
+B.![exhibit][q24b]  
+C.![exhibit][q24c]  
+D.![exhibit][q24d]  
 
 Answer:  A  
 
@@ -387,7 +387,7 @@ Answer:  B, C
 
 ## Q31 
 Refer to the exhibit. Which EIGRP routes will appear in the routing table of R2 ?
-![exibit][q31]
+![exhibit][q31]
   
 A.2001:12::1/64    
 B.2001:12::1/128    
@@ -412,7 +412,7 @@ Answer:  D
 
 ## Q33
 Refer to the exhibit. After you apply the given configurations to R1 and R2. Which networks does R2 advertise to R1?
-![exibit][q33]
+![exhibit][q33]
   
 A.172.16.0.0/16 only    
 B.Both 172.16.32.0/20 and 172.16.33.0/24    
@@ -451,7 +451,7 @@ Answer:  E
 
 ## Q36 
 Refer to the exhibit. Which effect of this configuration is true?
-![exibit][q36]
+![exhibit][q36]
   
 A.It configures a PPPoE server   
 B.It configures a PPPoE neighbor relationship with a Layer 3 switch   
@@ -502,7 +502,7 @@ Answer:  A
 
 ## Q40
 Refer to the exhibit, how can you configure R6 so that traffic returns to subnet 172.16.6.0/24 via R5? 
-![exibit][q40]
+![exhibit][q40]
   
 A.Configure the neighbor 10.5.6.5 send-community standard command   
 B.Advertise prefix 172.16.6.0/24 to neighbor R5 with metric 80   
@@ -541,7 +541,7 @@ Answer:  D, F
 
 ## Q43 
 Refer to the exhibit. If you apply this configuration to a device on your network, which class map cannot match traffic? 
-![exibit][q43]
+![exhibit][q43]
   
 A.CM-EXAMPLE-2   
 B.CM-EXAMPLE-1   
@@ -579,7 +579,7 @@ Answer:  C
 
 ## Q46
 Refer to the exhibit. Which additional configuration statement is required on R3 in order to allow multicast traffic sourced from 192.168.13.3 to flow along the shared-tree? 
-![exibit][q46]
+![exhibit][q46]
   
 A.ip mroute 10.4.4.4 255.255.255.255 Tunnel 0   
 B.ip route 10.4.4.4 255.255.255.255 Tunnel 0   
@@ -695,16 +695,16 @@ Answer:  A
 
 ## Q55 
 Drag and drop each IPv6 address type from the left onto the correct link-local multicast address on the right 
-![exibit][q55]
+![exhibit][q55]
 
 Answer:  
-![exibit][q55a]
+![exhibit][q55a]
 
 ---
 
 ## Q56 
 Drag each IPv4 host address on the left to the matching broadcast address on the right
-![exibit][q56]
+![exhibit][q56]
 
 Answer: 1:3 2:1 3:2 4:6 5:5 6:3 
 
@@ -788,7 +788,7 @@ Answer:  C
 
 ## Q63 
 Drag and drop the BGP feature on the left to the corresponding function it performs on the right 
-![exibit][q63]
+![exhibit][q63]
 
 Answer: 1-A, 2-D, 3-E, 4-B, 5-C 
 
@@ -886,10 +886,10 @@ Answer:  A, B
 
 ## Q71 
 Drag and drop each statement about LISP devices from the left onto the correct LSIP device type on the right. 
-![exibit][q71]
+![exhibit][q71]
 
 Answer:  
-![exibit][q71a]
+![exhibit][q71a]
 
 ---
 
@@ -907,10 +907,10 @@ Answer:  B
 
 ## Q73 
 Drag and drop the OSPF network type on the left to the correct category of timers on the right
-![exibit][q73]
+![exhibit][q73]
 
 Answer:   
-![exibit][q73a]
+![exhibit][q73a]
 
 ---
 
@@ -989,7 +989,7 @@ Answer:  A, B
 
 ## Q80 
 Refer to the exhibit. Which configuration must you apply to a router so that it can generate a log message in this format?
-![exibit][q80]
+![exhibit][q80]
   
 A.  
 service timestamps log datetime msec localtime  
@@ -1116,7 +1116,7 @@ Answer:  B, D
 
 ## Q89
 Refer to the exhibit. After observing that an OSPF neighbor relationship failed to form, you executed a debug that returned the given output. Which configuration issue prevented the OSPF neighbor relationship from Forming?
-![exibit][q89]
+![exhibit][q89]
   
 A.The hello and hold timers are mismatched.   
 B.The area IDs are mismatched   
@@ -1352,7 +1352,7 @@ Answer:  C, D
 
 ## Q107 
 Refer to the exhibit. Refer to the exhibit, assuming that all devices are running CDP in default configuration, which of them appear in the R1 show cdp neighbors table?
-![exibit][q107]
+![exhibit][q107]
   
 A.Router 2, Router 3, Router 5 and Switch A only   
 B.Router 2, Router 3, Router 4 and router 5 only   
@@ -1365,7 +1365,7 @@ Answer:  A
 
 ## Q108 
 Refer to the exhibit. What will happen to the 10.100.100.0/24 BGP route when the bgp nexthop route-map command is applied as shown?
-![exibit][q108]
+![exhibit][q108]
   
 A.The route will fall back from iBGP to eBGP   
 B.The route will be removed from the routing table   
@@ -1378,7 +1378,7 @@ Answer:  C
 
 ## Q109
 Drag and drop the set commands from the left into the order in which they are evaluated in a route-map for policy-based routing on the right
-![exibit][q109]
+![exhibit][q109]
 
 Answer: A: 2, B:1, C:4, D:3
 
@@ -1386,7 +1386,7 @@ Answer: A: 2, B:1, C:4, D:3
 
 ## Q110 
 Refer to the exhibit. What are two effects of the given configuration? (Choose two) 
-![exibit][q110]
+![exhibit][q110]
   
 A.The router will manually summarize the 192.168.12.0/27 network   
 B.Auto-summarization will be enabled on the F0/0/ interface   
@@ -1451,7 +1451,7 @@ Answer:  B
 
 ## Q115 
 Refer to the exhibit. The OSPF adjacency between two routers cannot be established. What is the root cause of the problem? 
-![exibit][q115]
+![exhibit][q115]
   
 A.Area type mismatch   
 B.Authentication error   
@@ -1465,7 +1465,7 @@ Answer:  A
 
 ## Q116
 Refer to the exhibit. What type of IS-IS is configured on R1? 
-![exibit][q116]
+![exhibit][q116]
   
 A.VRF-aware IS-IS  
 B.Multi-process IS-IS  
@@ -1603,7 +1603,7 @@ Answer:  D
 
 ## Q127
 Drag and drop each IS-IS PDU type from the left onto its purpose on the right 
-![exibit][q127]
+![exhibit][q127]
 
 Answer: 3, 2, 4, 1
 
@@ -1649,7 +1649,7 @@ Answer:  B
 
 ## Q131
 Drag and drop EIGRP query condition on the left to the corresponding action taken by the router on the right 
-![exibit][q131]
+![exhibit][q131]
 
 Answer: 1:3, 2:1, 3:4, 4:2
 
@@ -1657,13 +1657,13 @@ Answer: 1:3, 2:1, 3:4, 4:2
 
 ## Q132 
 Refer to the exhibit. Which two configurations must you apply to R2 so that it correctly translates the Internal to a public IP address? (Choose two.) 
-![exibit][q132]
+![exhibit][q132]
   
-A.![exibit][q132a]  
-B.![exibit][q132b]  
-C.![exibit][q132c]  
-D.![exibit][q132d]  
-E.![exibit][q132e]
+A.![exhibit][q132a]  
+B.![exhibit][q132b]  
+C.![exhibit][q132c]  
+D.![exhibit][q132d]  
+E.![exhibit][q132e]
 
 Answer:  B E
 
@@ -1709,28 +1709,28 @@ Answer:  A
 
 ## Q136
 Drag and drop each step in the uRPF packet-forwarding from the left into the correct order of operations on the right
-![exibit][q136]
+![exhibit][q136]
 
 Answer:  
-![exibit][q136a]
+![exhibit][q136a]
 
 ---
 
 ## Q137
 Drag and drop each Cisco Performance Monitor component from the left onto the matching statement on the right
-![exibit][q137]
+![exhibit][q137]
 
 Answer:  
-![exibit][q137a]
+![exhibit][q137a]
 
 ---
 
 ## Q138
 Drag and drop the OSPFv3 LSA type on the left to the functionality it provides on the right 
-![exibit][q138]
+![exhibit][q138]
 
 Answer:
-![exibit][q138a]
+![exhibit][q138a]
 
 ---
 
@@ -1751,7 +1751,7 @@ URL: https://www.cisco.com/c/en/us/support/docs/lan-switching/spanning-tree-prot
 
 ## Q140
 Drag and drop the EIGRP query condition on the left to the corresponding action taken by the router on the right
-![exibit][q140]
+![exhibit][q140]
 
 Answer: 2:1, 4:2, 1:3, 2:4  
 
@@ -1797,16 +1797,16 @@ Answer:  D
 
 ## Q144
 Drag and drop each description from the left onto the corresponding IP multicast protocol on the right
-![exibit][q144]
+![exhibit][q144]
 
 Answer:  
-![exibit][q144a]
+![exhibit][q144a]
 
 ---
 
 ## Q145
 Drag and drop the BGP attribute on the left to the correct category on the right. Not all options will be used. 
-![exibit][q145]
+![exhibit][q145]
 
 Answer: BGP Well-known Mandatory Attribute AS_Path BGP Optional Nontransitive Attributes Cluster List Originator ID BGP Optional Transitive Attributes Community 
 
@@ -1828,33 +1828,33 @@ Answer:  B, D
 
 ## Q147
 Drag and drop the implementation steps on the left to the corresponding order on the right when configuring a L3 VxLAN gateway. 
-![exibit][q147]
+![exhibit][q147]
 Answer:
-![exibit][q147a]
+![exhibit][q147a]
 
 ---
 
 ## Q148
 Drag and drop statement about QoS features on the left to the matching QoS feature on the right 
-![exibit][q148]
+![exhibit][q148]
 
 Answer:  
-![exibit][q148a]
+![exhibit][q148a]
 
 ---
 
 ## Q149
 Drag and drop the PPPoE packet type on the left to the corresponding description on the right.
-![exibit][q149]
+![exhibit][q149]
 
 Answer:
-![exibit][q149a]
+![exhibit][q149a]
 
 ---
 
 ## Q150
 Drag and Drop the NAT operations on the left to the correct sequential order on the right. 
-![exibit][q150]
+![exhibit][q150]
 
 Answer: Step 1 ----- Check the inbound Access list Step 2 ---- Check the policy routing Step 3 ---- Check the IP routing table Step 4 ---- translate the inside local to the outside global Step 5 ---- Check the outbound Access list Step 6 ---- inspect CBAC 
 
@@ -1887,10 +1887,10 @@ Answer:  B
 
 ## Q153
 Drag and drop each BGP attribute on the left into the correct priority order in which the attributes are preferred when determining the best path on the right. 
-![exibit][q153]
+![exhibit][q153]
 
 Answer:  
-![exibit][q153a]
+![exhibit][q153a]
 
 ---
 
@@ -1922,19 +1922,19 @@ Answer:  D, F
 
 ## Q156
 Drag and drop the IPv6 discovery message on the left to the corresponding description on the right. 
-![exibit][q156]
+![exhibit][q156]
 
 Answer:  
-![exibit][q156a]
+![exhibit][q156a]
 
 ---
 
 ## Q157
 Drag and drop each EIGRP packet type from the left onto the matching description on the right. 
-![exibit][q157]
+![exhibit][q157]
 
 Answer:  
-![exibit][q157a]
+![exhibit][q157a]
 
 ---
 
@@ -1967,10 +1967,10 @@ Answer:  E
 
 ## Q160
 Drag and Drop the OpenStack projects from the left onto their function on the right
-![exibit][q160]
+![exhibit][q160]
 
 Answer:
-![exibit][q160a]
+![exhibit][q160a]
 
 ---
 
@@ -2104,10 +2104,10 @@ Answer:  A, D
 
 ## Q170
 Drag and drop each SNMP feature from the left onto the correct SNMP version on the right 
-![exibit][q170]
+![exhibit][q170]
 
 Answer:  
-![exibit][q170a]
+![exhibit][q170a]
 
 ---
 
@@ -2191,19 +2191,19 @@ Answer:  D, E, F
 
 ## Q177
 What is the current order of the VSS initialization process? Drag and drop the actions on the left to the correct initialization step on the right 
-![exibit][q177]
+![exhibit][q177]
 
 Answer:  
-![exibit][q177a]
+![exhibit][q177a]
 
 ---
 
 ## Q178
 Drag each statement about Cisco EEM policies on the left to the matching type of EEM policy on the right
-![exibit][q178]
+![exhibit][q178]
 
 Answer:  
-![exibit][q178a]
+![exhibit][q178a]
 
 ---
 
@@ -2222,7 +2222,7 @@ Answer:  A, D
 
 ## Q180
 Drag and drop the description on the correct EIGRP term in the right 
-![exibit][q180]
+![exhibit][q180]
 
 Answer: E-1, B-2, D-3 
 
@@ -2332,16 +2332,16 @@ Answer:  B
 
 ## Q190
 Drag and drop the multiprotocol BGP feature on the left to the corresponding description on the right. 
-![exibit][q190]
+![exhibit][q190]
 
 Answer:  
-![exibit][q190a]
+![exhibit][q190a]
 
 ---
 
 ## Q191 
 Refer to the exhibit. What happens to a TCP packet that is received on interface GigabitEthernet0/0/0.100, which has DF bit set to 1, and packet has a valid destination?
-![exibit][q191]
+![exhibit][q191]
   
 A.The packet is matched by route-map loo and the DF bit is set to 0   
 B.The packet is not matched by route-map loo and the DF bit is left as it was   
@@ -2513,7 +2513,7 @@ Answer:  B
 
 ## Q204 
 Refer to the exhibit. Which two actions can you take to allow the network 1 72.29.224.0/24 to be reachable from peer 192.168.250.53? (Choose two)
-![exibit][q204]
+![exhibit][q204]
   
 A.Modify the outbound route map to permit all additional traffic.   
 B.Configure soft reconfiguration to peering 192.168.250.53   
@@ -2774,7 +2774,7 @@ Answer:  B, D
 
 ## Q224
 Drag and drop the EIGRP query condition on the left to the corresponding action taken by the router on the right. 
-![exibit][q224]
+![exhibit][q224]
 
 Answer: 2:1, 4:2, 1:3, 2:4 
 
@@ -2845,7 +2845,7 @@ Answer:  A
 
 ## Q230
 Refer to the exhibit. You are configuring Router 1 and Router 2 for L2TPv3 tunneling. Which two additional configurations are required to enable Router1 and Router 2 to establish the tunnel? (Choose two) 
-![exibit][q230]
+![exhibit][q230]
   
 A.Router1 must be configured to encapsulate traffic by using L2TPv3 under the pseudowire-class R1 to R2  
 B.Cisco Discovery Protocol must be configured on interface FastEthernet 1/0 on router1  
@@ -2923,7 +2923,7 @@ Answer:  B
 
 ## Q235
 Refer to the exhibit. Which two statements correctly, describe the final state of the routing table if the R1 IS-type is changed to Level 1 only? (Choose two)
-![exibit][q235]
+![exhibit][q235]
   
 A.The 10.10.10.10/32 route will be in the routing table   
 B.The 192.168.2.0/30 route will not be in the routing table   
@@ -2950,7 +2950,7 @@ Answer:  B, C
 
 ## Q236
 Refer the exhibit. Which option describes how a device with this configuration applies traffic matching? 
-![exibit][q236]
+![exhibit][q236]
   
 A.It matches all traffic in ACL 8  
 B.It matches all traffic that has a DSCP marking of EF  
@@ -2976,12 +2976,12 @@ Answer:  B
 
 ## Q238 
 Refer to the exhibit. Which two configurations must you apply to the master controller and the border router to provision them? (Choose two)
-![exibit][q238]
+![exhibit][q238]
   
-A.![exibit][q238a]  
-B.![exibit][q238b]  
-C.![exibit][q238c]  
-D.![exibit][q238d]
+A.![exhibit][q238a]  
+B.![exhibit][q238b]  
+C.![exhibit][q238c]  
+D.![exhibit][q238d]
 
 Answer:  B  
 
@@ -3028,7 +3028,7 @@ Answer:  D
 
 ## Q242 
 Refer to the exhibit. When a question mark is entered after bgp bestpath, only three options are visible. Which two BGP hidden options for the bgp bestpath command are valid? (Choose two)
-![exibit][q242]
+![exhibit][q242]
   
 A.bgp bestpath localpref ignore   
 B.bgp bestpath as-path ignore   
@@ -3069,7 +3069,7 @@ Answer:  B, E, F
 
 ## Q245
 Refer to the exhibit. You are configuring the S1 switchport connecting to the client computer. What is the effect of the command mls qos map cos-dscp 0 8 16 24 32 40 46 56?
-![exibit][q245]
+![exhibit][q245]
   
 A.Voice traffic is excluded from the default priority queue   
 B.Voice packets are processed in the priority queue   
@@ -3109,7 +3109,7 @@ Answer:  B, E
 
 ## Q248
 Refer to the exhibit. Which authentication method can the device use as an alternate to the pre-shared key?  
-![exibit][q248]
+![exhibit][q248]
   
 A.Clear-text   
 B.Null   
@@ -3148,7 +3148,7 @@ Answer:  B, E
 
 ## Q251
 Refer to the exhibit. Which two conclusions can you draw from this output? (Choose two)
-![exibit][q251]
+![exhibit][q251]
   
 A.The packets was source-routed   
 B.The device that produced the output uses the same interface to send and receive traffic to and from the device at 10.9.132.254   
@@ -3394,63 +3394,63 @@ F.RESTCONF uses YAML-encoded data
 
 Answer: A, B, D
 
-[q2]: exibits/q2.jpg "Q2 Exibit"
-[q6]: exibits/q6.jpg "Q6 Exibit"
-[q10]: exibits/q10.jpg "Q10 Exibit"
-[q12]: exibits/q12.jpg "Q12 Exibit"
-[q18]: exibits/q18.jpg "Q18 Exibit"
-[q21]: exibits/q21.jpg "Q21 Exibit"
-[q23]: exibits/q23.jpg "Q23 Exibit"
-[q31]: exibits/q31.jpg "Q31 Exibit"
-[q33]: exibits/q33.jpg "Q33 Exibit"
-[q36]: exibits/q36.jpg "Q36 Exibit"
-[q40]: exibits/q40.jpg "Q40 Exibit"
-[q43]: exibits/q43.jpg "Q43 Exibit"
-[q46]: exibits/q46.jpg "Q46 Exibit"
-[q55]: exibits/q55.jpg "Q55 Exibit"
-[q56]: exibits/q56.jpg "Q56 Exibit"
-[q63]: exibits/q63.jpg "Q63 Exibit"
-[q71]: exibits/q71.jpg "Q71 Exibit"
-[q73]: exibits/q73.jpg "Q73 Exibit"
-[q80]: exibits/q80.jpg "Q80 Exibit"
-[q89]: exibits/q89.jpg "Q89 Exibit"
-[q107]: exibits/q107.jpg "Q107 Exibit"
-[q108]: exibits/q108.jpg "Q108 Exibit"
-[q109]: exibits/q109.jpg "Q109 Exibit"
-[q110]: exibits/q110.jpg "Q110 Exibit"
-[q115]: exibits/q115.jpg "Q115 Exibit"
-[q116]: exibits/q116.jpg "Q116 Exibit"
-[q127]: exibits/q127.jpg "Q127 Exibit"
-[q131]: exibits/q131.jpg "Q131 Exibit"
-[q132]: exibits/q132.jpg "Q132 Exibit"
-[q136]: exibits/q136.jpg "Q136 Exibit"
-[q137]: exibits/q137.jpg "Q137 Exibit"
-[q138]: exibits/q138.jpg "Q138 Exibit"
-[q140]: exibits/q140.jpg "Q140 Exibit"
-[q144]: exibits/q144.jpg "Q144 Exibit"
-[q145]: exibits/q145.jpg "Q145 Exibit"
-[q147]: exibits/q147.jpg "Q147 Exibit"
-[q148]: exibits/q148.jpg "Q148 Exibit"
-[q149]: exibits/q149.jpg "Q149 Exibit"
-[q150]: exibits/q150.jpg "Q150 Exibit"
-[q153]: exibits/q153.jpg "Q153 Exibit"
-[q156]: exibits/q156.jpg "Q156 Exibit"
-[q157]: exibits/q157.jpg "Q157 Exibit"
-[q160]: exibits/q160.jpg "Q160 Exibit"
-[q170]: exibits/q170.jpg "Q170 Exibit"
-[q177]: exibits/q177.jpg "Q177 Exibit"
-[q178]: exibits/q178.jpg "Q178 Exibit"
-[q180]: exibits/q180.jpg "Q180 Exibit"
-[q190]: exibits/q190.jpg "Q190 Exibit"
-[q191]: exibits/q191.jpg "Q191 Exibit"
-[q204]: exibits/q204.jpg "Q204 Exibit"
-[q224]: exibits/q224.jpg "Q224 Exibit"
-[q230]: exibits/q230.jpg "Q230 Exibit"
-[q235]: exibits/q235.jpg "Q235 Exibit"
-[q236]: exibits/q236.jpg "Q236 Exibit"
-[q238]: exibits/q238.jpg "Q238 Exibit"
-[q242]: exibits/q242.jpg "Q242 Exibit"
-[q245]: exibits/q245.jpg "Q245 Exibit"
-[q248]: exibits/q248.jpg "Q248 Exibit"
-[q251]: exibits/q251.jpg "Q251 Exibit"
+[q2]: exhibits/q2.jpg "Q2 exhibit"
+[q6]: exhibits/q6.jpg "Q6 exhibit"
+[q10]: exhibits/q10.jpg "Q10 exhibit"
+[q12]: exhibits/q12.jpg "Q12 exhibit"
+[q18]: exhibits/q18.jpg "Q18 exhibit"
+[q21]: exhibits/q21.jpg "Q21 exhibit"
+[q23]: exhibits/q23.jpg "Q23 exhibit"
+[q31]: exhibits/q31.jpg "Q31 exhibit"
+[q33]: exhibits/q33.jpg "Q33 exhibit"
+[q36]: exhibits/q36.jpg "Q36 exhibit"
+[q40]: exhibits/q40.jpg "Q40 exhibit"
+[q43]: exhibits/q43.jpg "Q43 exhibit"
+[q46]: exhibits/q46.jpg "Q46 exhibit"
+[q55]: exhibits/q55.jpg "Q55 exhibit"
+[q56]: exhibits/q56.jpg "Q56 exhibit"
+[q63]: exhibits/q63.jpg "Q63 exhibit"
+[q71]: exhibits/q71.jpg "Q71 exhibit"
+[q73]: exhibits/q73.jpg "Q73 exhibit"
+[q80]: exhibits/q80.jpg "Q80 exhibit"
+[q89]: exhibits/q89.jpg "Q89 exhibit"
+[q107]: exhibits/q107.jpg "Q107 exhibit"
+[q108]: exhibits/q108.jpg "Q108 exhibit"
+[q109]: exhibits/q109.jpg "Q109 exhibit"
+[q110]: exhibits/q110.jpg "Q110 exhibit"
+[q115]: exhibits/q115.jpg "Q115 exhibit"
+[q116]: exhibits/q116.jpg "Q116 exhibit"
+[q127]: exhibits/q127.jpg "Q127 exhibit"
+[q131]: exhibits/q131.jpg "Q131 exhibit"
+[q132]: exhibits/q132.jpg "Q132 exhibit"
+[q136]: exhibits/q136.jpg "Q136 exhibit"
+[q137]: exhibits/q137.jpg "Q137 exhibit"
+[q138]: exhibits/q138.jpg "Q138 exhibit"
+[q140]: exhibits/q140.jpg "Q140 exhibit"
+[q144]: exhibits/q144.jpg "Q144 exhibit"
+[q145]: exhibits/q145.jpg "Q145 exhibit"
+[q147]: exhibits/q147.jpg "Q147 exhibit"
+[q148]: exhibits/q148.jpg "Q148 exhibit"
+[q149]: exhibits/q149.jpg "Q149 exhibit"
+[q150]: exhibits/q150.jpg "Q150 exhibit"
+[q153]: exhibits/q153.jpg "Q153 exhibit"
+[q156]: exhibits/q156.jpg "Q156 exhibit"
+[q157]: exhibits/q157.jpg "Q157 exhibit"
+[q160]: exhibits/q160.jpg "Q160 exhibit"
+[q170]: exhibits/q170.jpg "Q170 exhibit"
+[q177]: exhibits/q177.jpg "Q177 exhibit"
+[q178]: exhibits/q178.jpg "Q178 exhibit"
+[q180]: exhibits/q180.jpg "Q180 exhibit"
+[q190]: exhibits/q190.jpg "Q190 exhibit"
+[q191]: exhibits/q191.jpg "Q191 exhibit"
+[q204]: exhibits/q204.jpg "Q204 exhibit"
+[q224]: exhibits/q224.jpg "Q224 exhibit"
+[q230]: exhibits/q230.jpg "Q230 exhibit"
+[q235]: exhibits/q235.jpg "Q235 exhibit"
+[q236]: exhibits/q236.jpg "Q236 exhibit"
+[q238]: exhibits/q238.jpg "Q238 exhibit"
+[q242]: exhibits/q242.jpg "Q242 exhibit"
+[q245]: exhibits/q245.jpg "Q245 exhibit"
+[q248]: exhibits/q248.jpg "Q248 exhibit"
+[q251]: exhibits/q251.jpg "Q251 exhibit"
 
