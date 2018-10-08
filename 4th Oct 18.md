@@ -13,7 +13,7 @@ Answer:  A, B
 ---
 
 ## Q2 
-Refer to the exhibit. Which three statements correctly describe the route reflector's behavior? (Choose two.) 
+Refer to the exhibit. Which three statements correctly describe the route reflector's behavior? (Choose two.)  
 ![exhibit][q2]
   
 A.The route reflector will not reflect routes from R3 to R1    
@@ -68,7 +68,7 @@ Answer:  A
 ---
 
 ## Q6 
-![exhibit][q6]
+![exhibit][q6]  
 R1 is performing mutual redistribution, but OSPF routes from R3 are unable to reach R2. Which three options are possible reasons for this behavior? (Choose three.) 
   
 A.R1 requires a seed metric to redistribute RIP.    
@@ -121,7 +121,7 @@ Answer:  C
 ---
 
 ## Q10
-Drag and drop each IPv6 tunnel type from the left onto the matching description on the right. 
+Drag and drop each IPv6 tunnel type from the left onto the matching description on the right.  
 ![exhibit][q10]
 
 Answer: 6to4 6RD ISATAP IPv4-compatable GRE Manual 
@@ -141,7 +141,7 @@ Answer:  D
 ---
 
 ## Q12 
-Refer to the exhibit. Which statement about the R1 configuration is true? 
+Refer to the exhibit. Which statement about the R1 configuration is true?  
 ![exhibit][q12]
   
 A.It permits host 10.1.1.2 to establish a Telnet connection to R1.    
@@ -222,7 +222,7 @@ URL: http://www.ciscopress.com/articles/article.asp?p=345618&seqNum=5
 ---
 
 ## Q18 
-Drag each OSPFv2 SA parameter on the left to its, corresponding description on the right 
+Drag each OSPFv2 SA parameter on the left to its, corresponding description on the right  
 ![exhibit][q18]
 
 Answer: KeyID Key Start generate Key Stop Accept Authentication key Key Stop Generate Authentication Algorithm Start Accept 
@@ -254,7 +254,7 @@ Answer:  C
 ---
 
 ## Q21 
-Refer to the exhibit. Which two statements about the output are true? (Choose two.) 
+Refer to the exhibit. Which two statements about the output are true? (Choose two.)  
 ![exhibit][q21]
 
 A.This switch is the root bridge for VLAN 1    
@@ -281,7 +281,7 @@ URL: https://www.cisco.com/c/en/us/support/docs/ip/integrated-intermediate-syste
 ---
 
 ## Q23
-Refer to the exhibit, which two options are problems that can occur with this configuration? (Choose two) 
+Refer to the exhibit, which two options are problems that can occur with this configuration? (Choose two)  
 ![exhibit][q23]
   
 A.The label for the R5 loopback address is filtered from other MPLS routers    
@@ -297,10 +297,14 @@ Answer:  A, C
 ## Q24
 Which configuration can you implement on PE-1 to allow CE-1 to receive delegated IPv6 prefixes
   
-A.![exhibit][q24a]  
-B.![exhibit][q24b]  
-C.![exhibit][q24c]  
-D.![exhibit][q24d]  
+A.   
+![exhibit][q24a]  
+B.  
+![exhibit][q24b]  
+C.  
+![exhibit][q24c]  
+D.  
+![exhibit][q24d]  
 
 Answer:  A  
 
@@ -386,7 +390,7 @@ Answer:  B, C
 ---
 
 ## Q31 
-Refer to the exhibit. Which EIGRP routes will appear in the routing table of R2 ?
+Refer to the exhibit. Which EIGRP routes will appear in the routing table of R2 ?  
 ![exhibit][q31]
   
 A.2001:12::1/64    
@@ -411,7 +415,7 @@ Answer:  D
 ---
 
 ## Q33
-Refer to the exhibit. After you apply the given configurations to R1 and R2. Which networks does R2 advertise to R1?
+Refer to the exhibit. After you apply the given configurations to R1 and R2. Which networks does R2 advertise to R1?  
 ![exhibit][q33]
   
 A.172.16.0.0/16 only    
@@ -450,7 +454,7 @@ Answer:  E
 ---
 
 ## Q36 
-Refer to the exhibit. Which effect of this configuration is true?
+Refer to the exhibit. Which effect of this configuration is true?  
 ![exhibit][q36]
   
 A.It configures a PPPoE server   
@@ -501,7 +505,7 @@ Answer:  A
 ---
 
 ## Q40
-Refer to the exhibit, how can you configure R6 so that traffic returns to subnet 172.16.6.0/24 via R5? 
+Refer to the exhibit, how can you configure R6 so that traffic returns to subnet 172.16.6.0/24 via R5?  
 ![exhibit][q40]
   
 A.Configure the neighbor 10.5.6.5 send-community standard command   
@@ -540,7 +544,7 @@ Answer:  D, F
 ---
 
 ## Q43 
-Refer to the exhibit. If you apply this configuration to a device on your network, which class map cannot match traffic? 
+Refer to the exhibit. If you apply this configuration to a device on your network, which class map cannot match traffic?  
 ![exhibit][q43]
   
 A.CM-EXAMPLE-2   
@@ -578,7 +582,7 @@ Answer:  C
 ---
 
 ## Q46
-Refer to the exhibit. Which additional configuration statement is required on R3 in order to allow multicast traffic sourced from 192.168.13.3 to flow along the shared-tree? 
+Refer to the exhibit. Which additional configuration statement is required on R3 in order to allow multicast traffic sourced from 192.168.13.3 to flow along the shared-tree?  
 ![exhibit][q46]
   
 A.ip mroute 10.4.4.4 255.255.255.255 Tunnel 0   
@@ -694,7 +698,7 @@ Answer:  A
 ---
 
 ## Q55 
-Drag and drop each IPv6 address type from the left onto the correct link-local multicast address on the right 
+Drag and drop each IPv6 address type from the left onto the correct link-local multicast address on the right  
 ![exhibit][q55]
 
 Answer:  
@@ -703,7 +707,7 @@ Answer:
 ---
 
 ## Q56 
-Drag each IPv4 host address on the left to the matching broadcast address on the right
+Drag each IPv4 host address on the left to the matching broadcast address on the right  
 ![exhibit][q56]
 
 Answer: 1:3 2:1 3:2 4:6 5:5 6:3 
@@ -787,7 +791,7 @@ Answer:  C
 ---
 
 ## Q63 
-Drag and drop the BGP feature on the left to the corresponding function it performs on the right 
+Drag and drop the BGP feature on the left to the corresponding function it performs on the right  
 ![exhibit][q63]
 
 Answer: 1-A, 2-D, 3-E, 4-B, 5-C 
@@ -885,7 +889,7 @@ Answer:  A, B
 ---
 
 ## Q71 
-Drag and drop each statement about LISP devices from the left onto the correct LSIP device type on the right. 
+Drag and drop each statement about LISP devices from the left onto the correct LSIP device type on the right.  
 ![exhibit][q71]
 
 Answer:  
@@ -906,7 +910,7 @@ Answer:  B
 ---
 
 ## Q73 
-Drag and drop the OSPF network type on the left to the correct category of timers on the right
+Drag and drop the OSPF network type on the left to the correct category of timers on the right  
 ![exhibit][q73]
 
 Answer:   
@@ -988,7 +992,7 @@ Answer:  A, B
 ---
 
 ## Q80 
-Refer to the exhibit. Which configuration must you apply to a router so that it can generate a log message in this format?
+Refer to the exhibit. Which configuration must you apply to a router so that it can generate a log message in this format?  
 ![exhibit][q80]
   
 A.  
@@ -1115,7 +1119,7 @@ Answer:  B, D
 ---
 
 ## Q89
-Refer to the exhibit. After observing that an OSPF neighbor relationship failed to form, you executed a debug that returned the given output. Which configuration issue prevented the OSPF neighbor relationship from Forming?
+Refer to the exhibit. After observing that an OSPF neighbor relationship failed to form, you executed a debug that returned the given output. Which configuration issue prevented the OSPF neighbor relationship from Forming?  
 ![exhibit][q89]
   
 A.The hello and hold timers are mismatched.   
@@ -1351,7 +1355,7 @@ Answer:  C, D
 ---
 
 ## Q107 
-Refer to the exhibit. Refer to the exhibit, assuming that all devices are running CDP in default configuration, which of them appear in the R1 show cdp neighbors table?
+Refer to the exhibit. Refer to the exhibit, assuming that all devices are running CDP in default configuration, which of them appear in the R1 show cdp neighbors table?  
 ![exhibit][q107]
   
 A.Router 2, Router 3, Router 5 and Switch A only   
@@ -1364,7 +1368,7 @@ Answer:  A
 ---
 
 ## Q108 
-Refer to the exhibit. What will happen to the 10.100.100.0/24 BGP route when the bgp nexthop route-map command is applied as shown?
+Refer to the exhibit. What will happen to the 10.100.100.0/24 BGP route when the bgp nexthop route-map command is applied as shown?  
 ![exhibit][q108]
   
 A.The route will fall back from iBGP to eBGP   
@@ -1377,7 +1381,7 @@ Answer:  C
 ---
 
 ## Q109
-Drag and drop the set commands from the left into the order in which they are evaluated in a route-map for policy-based routing on the right
+Drag and drop the set commands from the left into the order in which they are evaluated in a route-map for policy-based routing on the right  
 ![exhibit][q109]
 
 Answer: A: 2, B:1, C:4, D:3
@@ -1385,7 +1389,7 @@ Answer: A: 2, B:1, C:4, D:3
 ---
 
 ## Q110 
-Refer to the exhibit. What are two effects of the given configuration? (Choose two) 
+Refer to the exhibit. What are two effects of the given configuration? (Choose two)  
 ![exhibit][q110]
   
 A.The router will manually summarize the 192.168.12.0/27 network   
@@ -1450,7 +1454,7 @@ Answer:  B
 ---
 
 ## Q115 
-Refer to the exhibit. The OSPF adjacency between two routers cannot be established. What is the root cause of the problem? 
+Refer to the exhibit. The OSPF adjacency between two routers cannot be established. What is the root cause of the problem?  
 ![exhibit][q115]
   
 A.Area type mismatch   
@@ -1464,7 +1468,7 @@ Answer:  A
 ---
 
 ## Q116
-Refer to the exhibit. What type of IS-IS is configured on R1? 
+Refer to the exhibit. What type of IS-IS is configured on R1?  
 ![exhibit][q116]
   
 A.VRF-aware IS-IS  
@@ -1602,7 +1606,7 @@ Answer:  D
 ---
 
 ## Q127
-Drag and drop each IS-IS PDU type from the left onto its purpose on the right 
+Drag and drop each IS-IS PDU type from the left onto its purpose on the right  
 ![exhibit][q127]
 
 Answer: 3, 2, 4, 1
@@ -1648,7 +1652,7 @@ Answer:  B
 ---
 
 ## Q131
-Drag and drop EIGRP query condition on the left to the corresponding action taken by the router on the right 
+Drag and drop EIGRP query condition on the left to the corresponding action taken by the router on the right  
 ![exhibit][q131]
 
 Answer: 1:3, 2:1, 3:4, 4:2
@@ -1656,7 +1660,7 @@ Answer: 1:3, 2:1, 3:4, 4:2
 ---
 
 ## Q132 
-Refer to the exhibit. Which two configurations must you apply to R2 so that it correctly translates the Internal to a public IP address? (Choose two.) 
+Refer to the exhibit. Which two configurations must you apply to R2 so that it correctly translates the Internal to a public IP address? (Choose two.)  
 ![exhibit][q132]
   
 A.![exhibit][q132a]  
@@ -1708,7 +1712,7 @@ Answer:  A
 ---
 
 ## Q136
-Drag and drop each step in the uRPF packet-forwarding from the left into the correct order of operations on the right
+Drag and drop each step in the uRPF packet-forwarding from the left into the correct order of operations on the right  
 ![exhibit][q136]
 
 Answer:  
@@ -1717,7 +1721,7 @@ Answer:
 ---
 
 ## Q137
-Drag and drop each Cisco Performance Monitor component from the left onto the matching statement on the right
+Drag and drop each Cisco Performance Monitor component from the left onto the matching statement on the right  
 ![exhibit][q137]
 
 Answer:  
@@ -1726,7 +1730,7 @@ Answer:
 ---
 
 ## Q138
-Drag and drop the OSPFv3 LSA type on the left to the functionality it provides on the right 
+Drag and drop the OSPFv3 LSA type on the left to the functionality it provides on the right  
 ![exhibit][q138]
 
 Answer:
@@ -1750,7 +1754,7 @@ URL: https://www.cisco.com/c/en/us/support/docs/lan-switching/spanning-tree-prot
 ---
 
 ## Q140
-Drag and drop the EIGRP query condition on the left to the corresponding action taken by the router on the right
+Drag and drop the EIGRP query condition on the left to the corresponding action taken by the router on the right  
 ![exhibit][q140]
 
 Answer: 2:1, 4:2, 1:3, 2:4  
@@ -1796,7 +1800,7 @@ Answer:  D
 ---
 
 ## Q144
-Drag and drop each description from the left onto the corresponding IP multicast protocol on the right
+Drag and drop each description from the left onto the corresponding IP multicast protocol on the right  
 ![exhibit][q144]
 
 Answer:  
@@ -1805,7 +1809,7 @@ Answer:
 ---
 
 ## Q145
-Drag and drop the BGP attribute on the left to the correct category on the right. Not all options will be used. 
+Drag and drop the BGP attribute on the left to the correct category on the right. Not all options will be used.  
 ![exhibit][q145]
 
 Answer: BGP Well-known Mandatory Attribute AS_Path BGP Optional Nontransitive Attributes Cluster List Originator ID BGP Optional Transitive Attributes Community 
@@ -1827,15 +1831,15 @@ Answer:  B, D
 ---
 
 ## Q147
-Drag and drop the implementation steps on the left to the corresponding order on the right when configuring a L3 VxLAN gateway. 
+Drag and drop the implementation steps on the left to the corresponding order on the right when configuring a L3 VxLAN gateway.  
 ![exhibit][q147]
-Answer:
+Answer:  
 ![exhibit][q147a]
 
 ---
 
 ## Q148
-Drag and drop statement about QoS features on the left to the matching QoS feature on the right 
+Drag and drop statement about QoS features on the left to the matching QoS feature on the right  
 ![exhibit][q148]
 
 Answer:  
@@ -1844,7 +1848,7 @@ Answer:
 ---
 
 ## Q149
-Drag and drop the PPPoE packet type on the left to the corresponding description on the right.
+Drag and drop the PPPoE packet type on the left to the corresponding description on the right.  
 ![exhibit][q149]
 
 Answer:
@@ -1853,7 +1857,7 @@ Answer:
 ---
 
 ## Q150
-Drag and Drop the NAT operations on the left to the correct sequential order on the right. 
+Drag and Drop the NAT operations on the left to the correct sequential order on the right.  
 ![exhibit][q150]
 
 Answer: Step 1 ----- Check the inbound Access list Step 2 ---- Check the policy routing Step 3 ---- Check the IP routing table Step 4 ---- translate the inside local to the outside global Step 5 ---- Check the outbound Access list Step 6 ---- inspect CBAC 
