@@ -942,30 +942,6 @@ Answer:  B
 
 ---
 
-## Q76 
-How does MSTP maintain compatibility with RSTP? 
-  
-A.RSTP encodes region information from an MSTP BPDU into a single instance.  
-B.MSTP supports five port states in the same way as RSTP.  
-C.MSTP sends all spanning-tree information in one BPDU.  
-D.RSTP implements a TTL that is compatible with the MSTP max age timer 
-
-Answer:  C
-
----
-
-## Q77
-When is it most important to implement multiple synonymous area addresses on an IS-IS network? 
-  
-A.when integrating an IS-IS Layer 2 router with another routing protocol  
-B.when merging or splitting areas in the IS-IS domain  
-C.when an IS-IS router is merging routing information  
-D.when splitting areas in the IS-IS domain 
-
-Answer:  B
-
----
-
 ## Q78
 Which option is a core event publisher for EEM? 
   
@@ -1235,19 +1211,6 @@ D.Only ISATAP tunneling transfers unicast IPv6 packets within a site
 E.Only 6to4 tunneling requires 2002::/16 addresses
 
 Answer:  D, E  
-
----
-
-## Q98
-Which two options are valid IPv6 extension header types? (Choose two)
-  
-A.Mobility   
-B.Encapsulating Security Payload   
-C.Version   
-D.Flow Label   
-E.Traffic Class
-
-Answer:  A, B
 
 ---
 
@@ -2211,19 +2174,6 @@ Answer:
 
 ---
 
-## Q179 
-Refer to the exhibit. You are configuring Router 1 and Router 2 for L2TPv3 tunneling. Which two additional configurations are required to enable Router1 and Router 2 to established the tunnel? (Choose two) 
-  
-A.Router1 must be configured to encapsulate traffic by using L2TPv3 under the pseudowire-class R1 to R2   
-B.Cisco Discovery Protocol must be configured on interface FastEthernet 1/0 on router1   
-C.An IP address must be configured on interface FastEthernet 1/0 on router1   
-D.Loopback 0 on Router1 must be advertised to Router2   
-E.Cisco Express Forwarding must be disabled on Router1
-
-Answer:  A, D
-
----
-
 ## Q180
 Drag and drop the description on the correct EIGRP term in the right 
 ![exhibit][q180]
@@ -2642,20 +2592,6 @@ C.Traffic is routed to the nearest public gateway and encapsulated over IPv4 to 
 D.Traffic is routed to the nearest public relay and encapsulated over IPv4 to the tunnel interface
 
 Answer:  A 
-
----
-
-## Q214
-Which three options describe characteristics of a link state routing protocol? (Choose three)
-  
-A.It provides faster convergence as opposed to distance vector routing protocols   
-B.It uses hop count in the metric calculation to determine the best path   
-C.It uses cost in the metric calculation to determine the best path   
-D.It only has a neighbor routing table   
-E.It is topology driven and has an overall overview of the network   
-F.It is better in detecting suboptimal routing
-
-Answer:  A, C, E  
 
 ---
 
