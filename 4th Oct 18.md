@@ -195,6 +195,7 @@ Answer:  A
 
 ## Q16 
 Refer to the exhibit. Which option is the state of the OSPF adjacency between routers R1 and R2? 
+![exhibit][q16]
   
 A.EXCHANGE    
 B.LOADING    
@@ -209,6 +210,7 @@ URL: https://networklessons.com/ospf/ospf-packets-and-neighbor-discovery/
 
 ## Q17 
 Refer to the exhibit. To which undesirable condition can router R1 be vulnerable? 
+![exhibit][q17]
   
 A.Denial of service attacks    
 B.Unicast flooding    
@@ -1393,7 +1395,8 @@ Answer:  A
 
 ## Q113 
 Refer to the exhibit. Which router on the given network generates the IS-IS pseudocode?
-  
+![exhibit][q113]  
+
 A.R1   
 B.R4   
 C.R2   
@@ -1518,7 +1521,8 @@ Answer:  B
 
 ## Q123 
 Refer to the Exhibit. Which two statements about the given MPLS VPN ate true? (Choose two.) 
-  
+![exhibit][q123]  
+
 A.It includes four CE routers.   
 B.Router A and router 1 must be BGP neighbors.   
 C.It includes four P routers.   
@@ -1664,6 +1668,7 @@ Answer:  A C E
 
 ## Q135
 Refer to the exhibit. If router R1 is configured to run IS-IS with given configuration and all interfaces are up/up, what action must you take so that the Ethernet 0/0 netwrok can be advertised to potential IS-IS neighbors on the E0/1 interface ? 
+![exhibit][q135]
   
 A.Configure the ip router isis command on R1's interface E0/1.   
 B.Configure an NSAP address on R1.   
@@ -2294,7 +2299,7 @@ Answer:
 ---
 
 ## Q191 
-Refer to the exhibit. What happens to a TCP packet that is received on interface GigabitEthernet0/0/0.100, which has DF bit set to 1, and packet has a valid destination?
+Refer to the exhibit. What happens to a TCP packet that is received on interface GigabitEthernet0/0/0.100, which has DF bit set to 1, and packet has a valid destination?  
 ![exhibit][q191]
   
 A.The packet is matched by route-map loo and the DF bit is set to 0   
@@ -2466,7 +2471,7 @@ Answer:  B
 ---
 
 ## Q204 
-Refer to the exhibit. Which two actions can you take to allow the network 1 72.29.224.0/24 to be reachable from peer 192.168.250.53? (Choose two)
+Refer to the exhibit. Which two actions can you take to allow the network 1 72.29.224.0/24 to be reachable from peer 192.168.250.53? (Choose two)  
 ![exhibit][q204]
   
 A.Modify the outbound route map to permit all additional traffic.   
@@ -2611,6 +2616,7 @@ Answer:  F
 
 ## Q216 
 Refer to the exhibit. Based on the output shown, how are the OSPFv3 address-families configured for this router?
+![exhibit][q216]
   
 A.The IPv6 address family is configured for both area 0 and area 1   
 B.The IPv4 address family is configured for area 1, IPv6 for area 0   
@@ -2784,7 +2790,7 @@ Answer:  A
 ---
 
 ## Q230
-Refer to the exhibit. You are configuring Router 1 and Router 2 for L2TPv3 tunneling. Which two additional configurations are required to enable Router1 and Router 2 to establish the tunnel? (Choose two) 
+Refer to the exhibit. You are configuring Router 1 and Router 2 for L2TPv3 tunneling. Which two additional configurations are required to enable Router1 and Router 2 to establish the tunnel? (Choose two)  
 ![exhibit][q230]
   
 A.Router1 must be configured to encapsulate traffic by using L2TPv3 under the pseudowire-class R1 to R2  
@@ -2862,7 +2868,7 @@ Answer:  B
 ---
 
 ## Q235
-Refer to the exhibit. Which two statements correctly, describe the final state of the routing table if the R1 IS-type is changed to Level 1 only? (Choose two)
+Refer to the exhibit. Which two statements correctly, describe the final state of the routing table if the R1 IS-type is changed to Level 1 only? (Choose two)  
 ![exhibit][q235]
   
 A.The 10.10.10.10/32 route will be in the routing table   
@@ -2875,7 +2881,7 @@ Answer:  C, D
 ---
 
 ## Q236 
-Which two options are mandatory components of a multiprotocol BGP VPN-IPv4 address? (Choose two) 
+Which two options are mandatory components of a multiprotocol BGP VPN-IPv4 address? (Choose two)  
   
 A.an area ID   
 B.an IPv4 address   
@@ -2915,7 +2921,7 @@ Answer:  B
 ---
 
 ## Q238 
-Refer to the exhibit. Which two configurations must you apply to the master controller and the border router to provision them? (Choose two)
+Refer to the exhibit. Which two configurations must you apply to the master controller and the border router to provision them? (Choose two)  
 ![exhibit][q238]
   
 A.![exhibit][q238a]  
@@ -3008,7 +3014,7 @@ Answer:  B, E, F
 ---
 
 ## Q245
-Refer to the exhibit. You are configuring the S1 switchport connecting to the client computer. What is the effect of the command mls qos map cos-dscp 0 8 16 24 32 40 46 56?
+Refer to the exhibit. You are configuring the S1 switchport connecting to the client computer. What is the effect of the command mls qos map cos-dscp 0 8 16 24 32 40 46 56?  
 ![exhibit][q245]
   
 A.Voice traffic is excluded from the default priority queue   
@@ -3087,7 +3093,7 @@ Answer:  B, E
 ---
 
 ## Q251
-Refer to the exhibit. Which two conclusions can you draw from this output? (Choose two)
+Refer to the exhibit. Which two conclusions can you draw from this output? (Choose two)  
 ![exhibit][q251]
   
 A.The packets was source-routed   
@@ -3738,6 +3744,8 @@ Answer:
 [q2]: exhibits/q2.jpg "Q2 exhibit"
 [q6]: exhibits/q6.jpg "Q6 exhibit"
 [q10]: exhibits/q10.jpg "Q10 exhibit"
+[q16]: exhibits/q16.jpg "Q16 exhibit"
+[q17]: exhibits/q17.jpg "Q17 exhibit"
 [q12]: exhibits/q12.jpg "Q12 exhibit"
 [q18]: exhibits/q18.jpg "Q18 exhibit"
 [q21]: exhibits/q21.jpg "Q21 exhibit"
@@ -3759,8 +3767,10 @@ Answer:
 [q108]: exhibits/q108.jpg "Q108 exhibit"
 [q109]: exhibits/q109.jpg "Q109 exhibit"
 [q110]: exhibits/q110.jpg "Q110 exhibit"
+[q113]: exhibits/q113.jpg "Q113 exhibit"
 [q115]: exhibits/q115.jpg "Q115 exhibit"
 [q116]: exhibits/q116.jpg "Q116 exhibit"
+[q123]: exhibits/q123.jpg "Q123 exhibit"
 [q127]: exhibits/q127.jpg "Q127 exhibit"
 [q131]: exhibits/q131.jpg "Q131 exhibit"
 [q132]: exhibits/q132.jpg "Q132 exhibit"
@@ -3781,10 +3791,12 @@ Answer:
 [q170]: exhibits/q170.jpg "Q170 exhibit"
 [q177]: exhibits/q177.jpg "Q177 exhibit"
 [q178]: exhibits/q178.jpg "Q178 exhibit"
+[q179]: exhibits/q179.jpg "Q179 exhibit"
 [q180]: exhibits/q180.jpg "Q180 exhibit"
 [q190]: exhibits/q190.jpg "Q190 exhibit"
 [q191]: exhibits/q191.jpg "Q191 exhibit"
 [q204]: exhibits/q204.jpg "Q204 exhibit"
+[q216]: exhibits/q216.jpg "Q216 exhibit"
 [q224]: exhibits/q224.jpg "Q224 exhibit"
 [q230]: exhibits/q230.jpg "Q230 exhibit"
 [q235]: exhibits/q235.jpg "Q235 exhibit"
@@ -3806,6 +3818,7 @@ Answer:
 [q132c]: exhibits/q132c.jpg "Q132c Exibit"  
 [q132d]: exhibits/q132d.jpg "Q132d Exibit"  
 [q132e]: exhibits/q132e.jpg "Q132e Exibit"
+[q135]: exhibits/q135.jpg "Q135 Exibit"
 [q136a]: exhibits/q136a.jpg "Q136a Exibit"
 [q137a]: exhibits/q137a.jpg "Q137a Exibit"
 [q138a]: exhibits/q138a.jpg "Q138a Exibit"
