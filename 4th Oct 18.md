@@ -3133,7 +3133,7 @@ C.DTP must be unconditionally enabled on links between switches in order to depl
 D.DTP negotiates the trunk native VLAN along with the trunking mode   
 E.Dynamic ports are vulnerable to attack from the rogue stations sending false DTP packets
 
-Answer:  B, D
+Answer:  B, E
 
 ---
 
