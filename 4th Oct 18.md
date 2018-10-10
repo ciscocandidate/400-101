@@ -3400,8 +3400,6 @@ Answer: A, B, D
 
 ---
 
----
-
 ## Q266
 Which two statements about MST are true? (Choose two.)   
 
@@ -3442,9 +3440,10 @@ Answer: B
 
 ## Q269
 Drag each statement about VPN policies on the left into the matching VPN policy category on the right      
+![exhibit][q269]
 
-
-Answer:                         
+Answer:         
+![exhibit][q269a]                
 
 ---
 
@@ -3462,6 +3461,7 @@ Answer: A, E
 ---
 
 ## Q271
+![exhibit][q271]  
 Refer to the exhibit. Routers A and B are the edge devices at two different sites as shown. If each sites  contains an IPv6 network that must be able to communicate over an IPsec tunnel, which type of  authentication can be in use between the two sites?   
 
 A. Pre-shared key  
@@ -3499,13 +3499,15 @@ Answer: B
 
 ## Q274
 Drag and drop each description from the left into the matching protocol category on the right      
-
+![exhibit][q274]
 
 Answer:                   
+![exhibit][q274a]
 
 ---
 
 ## Q275
+![exhibit][q275]  
 Refer to the exhibit. If R1 contacts the RADIUS server but is unable to find the user name in the server  database, how will it respond?   
 
 A. It will attempt to contact TACACS+ server  
@@ -3544,6 +3546,7 @@ Answer: B
 ---
 
 ## Q278
+![exhibit][q278]  
 Refer to the exhibit. While troubleshooting a connectivity issue, you executed a traceroute that a returned  the given output. Which conclusion can you draw about the problem?   
 
 A. The PDUs transmitted errors  
@@ -3596,6 +3599,7 @@ Answer: B, C, D
 ---
 
 ## Q282
+![exhibit][q282]  
 Refer to the exhibit. Which two statements about the network environment must be true? (Choose two)   
 
 A.If the administrator enters the show ip ospf neighbor GigabitEthernet0/1 command, the output is blank  
@@ -3728,6 +3732,7 @@ Answer: C, D, E
 ---
 
 ## Q292
+![exhibit][q292]
 Refer to the exhibit. If A DHCP server has generated the given debug output, which two statements about  the network environment must be true? (Choose two)   
 
 A.The DHCP server received a DHCPREQUEST from a client whose ID ends in 4574.3021.30  
@@ -3753,6 +3758,7 @@ F.The routers must be configured with the neighbor command
 Answer: A, E                                   
 
 ## Q294
+![exhibit][q294]  
 Refer to the exhibit. If a Layer 3 switch running OSPF in a VRF-lite configuration reports this error, which  action can you take to correct the problem?   
 
 A. Set mls cef maximum-routes in the global configuration   
@@ -3765,6 +3771,7 @@ Answer: A
 ---
 
 ## Q295
+![exhibit][q295]  
 Refer to the exhibit. Router A is connected as a BGP neighbor to routers B and C Which path does router A  use to get to AS 65010?   
 
 A. Through router B because it has the shortest AS Path  
@@ -3778,7 +3785,7 @@ Answer: A
 
 ## Q296
 Drag each routing Protocol on the left to the matching statement on the right      
-
+![exhibit][q296]  
 
 Answer:   CDR IS-IS, EIGRP,OSPF,BGP,RIP                                        
 
@@ -3786,9 +3793,10 @@ Answer:   CDR IS-IS, EIGRP,OSPF,BGP,RIP
 
 ## Q297
 Drag and drop each IS-IS router type from the left onto the best matching OSPF router type on the right      
-
+![exhibit][q297]  
 
 Answer:                                                                                   
+![exhibit][q297a]  
 
 
 [q2]: exhibits/q2.jpg "Q2 exhibit"
@@ -3880,4 +3888,17 @@ Answer:
 [q238a]: exhibits/q238a.jpg "Q238a Exibit"  
 [q238b]: exhibits/q238b.jpg "Q238b Exibit"  
 [q238c]: exhibits/q238c.jpg "Q238c Exibit"  
-[q238d]: exhibits/q238d.jpg "Q238d Exibit"
+[q269]: exhibits/269.jpg "Q269 Exibit"
+[q269a]: exhibits/269a.jpg "Q269a Exibit"                
+[q271]: exhibits/271.jpg "Q271 Exibit"  
+[q274]: exhibits/274.jpg "Q274 Exibit"
+[q274a]: exhibits/274a.jpg "Q274a Exibit"
+[q275]: exhibits/275.jpg "Q275 Exibit"  
+[q278]: exhibits/278.jpg "Q278 Exibit"  
+[q282]: exhibits/282.jpg "Q282 Exibit"  
+[q292]: exhibits/292.jpg "Q292 Exibit"
+[q294]: exhibits/294.jpg "Q294 Exibit"  
+[q295]: exhibits/295.jpg "Q295 Exibit"  
+[q296]: exhibits/296.jpg "Q296 Exibit"  
+[q297]: exhibits/297.jpg "Q297 Exibit"  
+[q297a]: exhibits/297a.jpg "Q297a Exibit"  
