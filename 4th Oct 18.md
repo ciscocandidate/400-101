@@ -3187,7 +3187,7 @@ C.It applies the policy
 D.It enforces the traffic path   
 E.It provides network visibility
 
-Answer:  B, D 
+Answer:  C, ...
 
 ---
 
@@ -3201,7 +3201,7 @@ D.It is triggered when multiple routers connected to a common LAN segment receiv
 E.It elects the device with the lowest administrative distance to the multicast source as the PIM Designated Router   
 F.It is triggered when multiple routers connected to a common LAN segment forward the same multicast packet
 
-Answer:  B, F 
+Answer:  D, F 
 
 ---
 
@@ -3300,7 +3300,7 @@ B.Cisco Prime Infrastructure
 C.Cisco Network Control System  
 D.Cisco Fog Director
 
-Answer:  D 
+Answer:  B 
 
 ---
 
