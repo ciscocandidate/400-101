@@ -3398,6 +3398,399 @@ F.RESTCONF uses YAML-encoded data
 
 Answer: A, B, D
 
+---
+
+---
+
+## Q266
+Which two statements about MST are true? (Choose two.)   
+
+A.Each MSTI sends its own independent BPDUs.  
+B.An MSTI is a single PVST instance  
+C.An MST region is defined by its name, configuration revision, and VLAN-to-instance mapping table  
+D.IN an MST region, switches run a single IST and Zero or more additional MSTIs  
+E.BPDUs carry VLAN-to-instance mapping information to switches in the same region                
+
+Answer: B, C                                           
+
+---
+
+## Q267
+Which two features are incompatible with Loop guard on a port? (Choose two)   
+
+A.PortFast  
+B.BPDU skew detection  
+C.UplinkFast  
+D.BackboneFast  
+E.Root Guard       
+
+Answer: A, E                                                    
+
+---
+
+## Q268
+Which PHB type allows for the best interoperability with IP Precedence already used in the network?   
+
+A. Assured Forwarding  
+B. Class Selector  
+C. Default  
+D. Expedited Forwarding                
+
+Answer: B                                           
+
+---
+
+## Q269
+Drag each statement about VPN policies on the left into the matching VPN policy category on the right      
+
+
+Answer:                         
+
+---
+
+## Q270
+Which two features of DMVPN are true? (Choose two)   
+
+A. It offers configuration reduction  
+B. It does not support spoke routers behind dynamic NAT  
+C. It only supports remote peers with statically assigned addresses  
+D. It requires IPsec encryption  
+E. It supports multicast traffic             
+
+Answer: A, E                                           
+
+---
+
+## Q271
+Refer to the exhibit. Routers A and B are the edge devices at two different sites as shown. If each sites  contains an IPv6 network that must be able to communicate over an IPsec tunnel, which type of  authentication can be in use between the two sites?   
+
+A. Pre-shared key  
+B. MDS  
+C. CHAP  
+D. 802. 1x                
+
+Answer: A                            
+
+---
+
+## Q272
+What is the reason to send an EIGRP SIA reply to a peer?   
+
+A. To respond to a query reporting that the prefix has gone stuck-in-active  
+B. To respond to an SIA query that the router is still waiting on replies from its peers  
+C. To respond to a reply reporting that the prefix has gone stuck-in-active  
+D. To respond to an SIA query with the alternative path requested             
+
+Answer: B                                                 
+
+---
+
+## Q273
+What can PfR passive monitoring mode measure for UDP flows?   
+
+A. Delay  
+B. Throughput  
+C. Loss  
+D. Reachability          
+
+Answer: B                                                 
+
+---
+
+## Q274
+Drag and drop each description from the left into the matching protocol category on the right      
+
+
+Answer:                   
+
+---
+
+## Q275
+Refer to the exhibit. If R1 contacts the RADIUS server but is unable to find the user name in the server  database, how will it respond?   
+
+A. It will attempt to contact TACACS+ server  
+B. It will attempt to authenticate the user against the local database  
+C. It will prompt the user to enter a new username  
+D. It will deny the user access             
+
+Answer: D                                     
+
+---
+
+## Q276
+Which two statements about 802. 1Q tunneling are true? (Choose two)   
+
+A. Mac-Based QoS and UDLD are supported on tunnel ports  
+B. Its maximum allowable system MTU is 1546 bytes  
+C. Traffic that traverses the tunnel is encrypted  
+D. The default configuration sends cisco Discovery Protocol, STP, and, VTP information  
+E. It is supported on private VLAN ports  
+F. It requires a system MTU of at least 1504 bytes       
+
+Answer: A, E                                                 
+
+---
+
+## Q277
+What is the initial BFD state?   
+
+A. Up  
+B. Down  
+C. Init  
+D. AdminDown       
+
+Answer: B                                                    
+
+---
+
+## Q278
+Refer to the exhibit. While troubleshooting a connectivity issue, you executed a traceroute that a returned  the given output. Which conclusion can you draw about the problem?   
+
+A. The PDUs transmitted errors  
+B. An ACL is blocking traffic  
+C. Packets are being fragmented  
+D. The destination is too busy       
+
+Answer: D                                    
+
+---
+
+## Q279
+Which statement about Cisco Express Forwarding is true?   
+
+A.The FIB table and the adjacency table reside on the line cards when Cisco Express Forwarding is enabled  
+B.The FIB table resides on the route processor and the adjacency table resides on the line cards when Cisco Express Forwarding is enabled  
+C.Layer 2 next-hop address information is maintained in the FIB table  
+D.Layer 2 next-hop address information is maintained in the adjacency table       
+
+Answer: D                                
+
+---
+
+## Q280
+Which three types of behavior does an OSPFv3 Ipv6 AF-capable router exhibit when a non-AF-capable  router attempts to form an adjacency? (Choose three)   
+
+A.Hellos are not allowed  
+B.DBDs are honored  
+C.LSAs are not honored  
+D.LSAs are honored  
+E.Hellos are honored  
+F.DBDs are not honored         
+
+Answer: C, E, F                            
+
+---
+
+## Q281
+Which three protocols are permitted by IEEE 802. 1x port-based authentication before the client is  successfully authenticated by the RADIUS server? (Choose three)   
+
+A.IP  
+B.CDP  
+C.EAPOL  
+D.STP  
+E.BOOTP  
+F.TCP           
+
+Answer: B, C, D                          
+
+---
+
+## Q282
+Refer to the exhibit. Which two statements about the network environment must be true? (Choose two)   
+
+A.If the administrator enters the show ip ospf neighbor GigabitEthernet0/1 command, the output is blank  
+B.The applet runs before any command are executed  
+C.An OSPF neighbor relationship is reestablished when the interface recovers  
+D.The applet runs only after OSPF neighbors are verified  
+E.A BGP neighbor relationship is established over GigabitEthernet0/1           
+
+Answer: A, B                  
+
+---
+
+## Q283
+What are the two Cisco recommended methods for reducing the size of the TCAM on a Layer 3 switch?  (Choose two)   
+
+A.Use the ip route profile command  
+B.Filter unwanted routes  
+C.Adjust the output queue buffers  
+D.Optimize the SDM template  
+E.Use summary routes           
+
+Answer: B, E                            
+
+---
+
+## Q284
+What are two general SDN characteristics? (Choose two)   
+
+A.Northbound interfaces are open interfaces used between the control plane and the data plane  
+B.OpenFlow is considered one of the first Northbound APIs used by SDN controllers.  
+C.The separation of the control plane from the data plane  
+D.Southbound interfaces are interfaces used between use control plane and the data plane  
+E.OVSDB is an application database management protocol         
+
+Answer: A, C                                
+
+---
+
+## Q285
+Which three connectivity models for vEdge Site Architecture are true? (Choose three)   
+
+A.Augmentation model  
+B.Hybrid with FallBack  
+C.Secure tunnel  
+D.Secure virtual connectivity  
+E.Cloud provider  
+F.Full SD-WAN         
+
+Answer: B, C, E                              
+
+---
+
+## Q286
+What command can you enter to configure NBAR to recognize VNC traffic?   
+
+A.Ip nbar application-map VNC udp 5900 5901  
+B.Ip nbar port-map VNC hex 0xAA 0x1B  
+C.Ip nbar port-map VNC tcp 5900 5901  
+D.Ip nbar custom-map VNC tcp-udp 5900 5901  
+E.Ip nbar port-to-application set VNC tcp 5900 5901           
+
+Answer: C                              
+
+## Q287
+Which two statements correctly describe IGMP filtering? (Choose two)   
+
+A.It enables a device to function as a multicast endpoint  
+B.It forwards IGMP reports to the upstream multicast router to support source-base filtering  
+C.It can designate a port as a multicast host port instead of a multicast router port  
+D.It requires IGMP snooping to be enabled  
+E.It controls the way in which multicast traffic can access a port  
+F.It filters IGMP membership reports and queries         
+
+Answer: D, F                              
+
+---
+
+## Q288
+What is one requirement to support the IGMP proxy feature?   
+
+A.Devices connected to a unidirectional link must disable Internet access  
+B.PIM-DM must be enabled on all unidirectional links  
+C.Device on the unidirectional link must be in the same IP subnet  
+D.IGMP snooping must be disabled     
+
+Answer: C                                    
+
+---
+
+## Q289
+Which three pieces of information are carried in OSPF type-3 LSAs? (Choose three)   
+
+A.Authentication type  
+B.External route tag  
+C.Forwarding address  
+D.Subnet mask  
+E.Metric  
+F.IP subnet      
+
+Answer: C                                  
+
+---
+
+## Q290
+Which two items must be defined to capture packet data with the Embedded Packet Capture feature?  (Choose two)   
+
+A.The capture buffer  
+B.The capture rate  
+C.The capture point  
+D.The capture file export location  
+E.The capture filter  
+F.The buffer memory size           
+
+Answer: A, F                          
+
+---
+
+## Q291
+Which three basics types of SD-WAN deployment are out on the market? (Choose three)   
+
+A.Managed service SD-WAN  
+B.Policy-Based SD-WAN  
+C.SD-WAN as-a-Service  
+D.Internet-Based SD-WAN  
+E.Secure SD-WAN service  
+F.MPLS-based      
+
+Answer: C, D, E                                  
+
+---
+
+## Q292
+Refer to the exhibit. If A DHCP server has generated the given debug output, which two statements about  the network environment must be true? (Choose two)   
+
+A.The DHCP server received a DHCPREQUEST from a client whose ID ends in 4574.3021.30  
+B.The DHCP pool for the 10.10.2.0/24 subnet is configured incorrectly  
+C.Client 0050.4332 has been assigned an IP address on the 10.10.2.0/24 subnet  
+D.The DHCP server receives discover messages through a relay agent  
+E.The DHCP server assigned PC2 an address from the 10.10.3.0/24 subnet       
+
+Answer: C, D              
+
+---
+
+## Q293
+Which two conditions must be met before IS-IS Level 1 routers will become adjacent? (Choose two)   
+
+A.The routers must be in different areas  
+B.The routers must be in the same area  
+C.The routers must share a common process ID  
+D.The routers must share a common Autonomous System Number  
+E.The router must share a common network segment  
+F.The routers must be configured with the neighbor command     
+
+Answer: A, E                                   
+
+## Q294
+Refer to the exhibit. If a Layer 3 switch running OSPF in a VRF-lite configuration reports this error, which  action can you take to correct the problem?   
+
+A. Set mls cef maximum-routes in the global configuration   
+B. Configure the control plane with a larger memory allocation to support the Cisco Express Forwarding  Information Base  
+C. Upgrade the Layer 3 switch to a model that to a model that can support more routes  
+D. Add the vrf-lite capability to the OSPF configuration         
+
+Answer: A                                        
+
+---
+
+## Q295
+Refer to the exhibit. Router A is connected as a BGP neighbor to routers B and C Which path does router A  use to get to AS 65010?   
+
+A. Through router B because it has the shortest AS Path  
+B. Through router C because it has higher local preference   
+C. Through router B because the default local preference is 500 and higher than router C   
+D. Will load balance both because routers have a same Med value             
+
+Answer: A                            
+
+---
+
+## Q296
+Drag each routing Protocol on the left to the matching statement on the right      
+
+
+Answer:   CDR IS-IS, EIGRP,OSPF,BGP,RIP                                        
+
+---
+
+## Q297
+Drag and drop each IS-IS router type from the left onto the best matching OSPF router type on the right      
+
+
+Answer:                                                                                   
+
+
 [q2]: exhibits/q2.jpg "Q2 exhibit"
 [q6]: exhibits/q6.jpg "Q6 exhibit"
 [q10]: exhibits/q10.jpg "Q10 exhibit"
