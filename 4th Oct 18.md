@@ -2023,6 +2023,7 @@ Answer:  D, E
 ---
 
 ## Q166 
+![exhibit][q166]  
 Which two statements about the VPN solution are true? (Choose two.)
   
 A.Customer A and customer B will exchange routes with each other.   
@@ -2144,6 +2145,7 @@ E.It can be prevented by alternating the hashing inputs
 F.When enabled, it allows all links to be used efficiently for different traffic flows
 
 Answer:  B, E  
+URL: https://networklessons.com/cisco/ccie-routing-switching-written/cef-polarization/
 
 ---
 
@@ -2361,6 +2363,7 @@ D.Transport input none
 E.Logging synchronous
 
 Answer:  A  
+URL: http://lostintransit.se/2011/05/18/transport-preferred-none/
 
 ---
 
@@ -2400,7 +2403,7 @@ C.The IP DSCP field is in the IP header and is 6 bits long.
 D.The ToS 6 bits are in the IP header   
 E.The IP Precedence field is in the IP header and is 4 bits long.
 
-Answer:  A, C  
+Answer:  C, D
 
 ---
 
@@ -3788,6 +3791,7 @@ Answer:
 [q156]: exhibits/q156.jpg "Q156 exhibit"
 [q157]: exhibits/q157.jpg "Q157 exhibit"
 [q160]: exhibits/q160.jpg "Q160 exhibit"
+[q166]: exhibits/q166.jpg "Q166 exhibit"
 [q170]: exhibits/q170.jpg "Q170 exhibit"
 [q177]: exhibits/q177.jpg "Q177 exhibit"
 [q178]: exhibits/q178.jpg "Q178 exhibit"
