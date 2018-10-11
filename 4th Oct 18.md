@@ -3721,7 +3721,7 @@ B. Through router C because it has higher local preference
 C. Through router B because the default local preference is 500 and higher than router C   
 D. Will load balance both because routers have a same Med value             
 
-Answer: A                            
+Answer: C                            
 
 ---
 
