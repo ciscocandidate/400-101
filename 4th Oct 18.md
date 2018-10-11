@@ -3655,7 +3655,7 @@ D.The capture file export location
 E.The capture filter  
 F.The buffer memory size           
 
-Answer: A, F                          
+Answer: A, C                          
 
 ---
 
