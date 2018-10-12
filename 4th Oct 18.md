@@ -3644,7 +3644,7 @@ D.Subnet mask
 E.Metric  
 F.IP subnet      
 
-Answer: C                                  
+Answer: D,E,F                                  
 
 ---
 
