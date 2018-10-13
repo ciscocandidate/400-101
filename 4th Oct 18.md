@@ -3743,6 +3743,32 @@ Drag and drop each IS-IS router type from the left onto the best matching OSPF r
 Answer:                                                                                   
 ![exhibit][q297a]  
 
+---
+
+## Q298
+Which two statements about HDLC are true? (Choose two)  
+
+A. The packet header contains the control field and address  
+B. It supports clear-text authentication  
+C. It is a frame-oriented data link layer protocol  
+D. It guarantees error-free transmission  
+E. It supports both synchronous and asynchronous serial links  
+
+Answer: A, E
+
+---
+
+## Q299
+Which two circumstances can cause unicast flooding? (Choose two)  
+
+A. Multiple STP topology change events  
+B. Implementing uRPF on the network  
+C. Symmetrical routing  
+D. MAC table overflow  
+E. Multiple broadcast frames  
+
+Answer: B, D
+
 
 [q2]: exhibits/q2.jpg "Q2 exhibit"
 [q6]: exhibits/q6.jpg "Q6 exhibit"
