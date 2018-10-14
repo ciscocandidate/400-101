@@ -3660,7 +3660,7 @@ C. Symmetrical routing
 D. MAC table overflow  
 E. Multiple broadcast frames  
 
-Answer: B, D
+Answer: A, D
 
 
 [q2]: exhibits/q2.jpg "Q2 exhibit"
