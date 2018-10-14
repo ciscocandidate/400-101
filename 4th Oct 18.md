@@ -1723,14 +1723,6 @@ URL: https://www.cisco.com/c/en/us/support/docs/lan-switching/spanning-tree-prot
 
 ---
 
-## Q140
-Drag and drop the EIGRP query condition on the left to the corresponding action taken by the router on the right  
-![exhibit][q140]
-
-Answer: 2:1, 4:2, 1:3, 2:4  
-
----
-
 ## Q141
 How should voice traffic be marked for DSCP in a standard QoS policy? 
   
@@ -2708,14 +2700,6 @@ D.It is a one-way authentication method
 E.It is configurable only on PPP callout links
 
 Answer:  B, D  
-
----
-
-## Q224
-Drag and drop the EIGRP query condition on the left to the corresponding action taken by the router on the right. 
-![exhibit][q224]
-
-Answer: 2:1, 4:2, 1:3, 2:4 
 
 ---
 
