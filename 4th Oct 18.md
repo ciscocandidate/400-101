@@ -1576,7 +1576,8 @@ Answer:  D
 Drag and drop each IS-IS PDU type from the left onto its purpose on the right  
 ![exhibit][q127]
 
-Answer: 3, 2, 4, 1
+Answer: 1, 2, 4, 3
+URL: https://sites.google.com/site/amitsciscozone/home/is-is/is-is-packets
 
 ---
 
