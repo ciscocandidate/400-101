@@ -1255,7 +1255,7 @@ Answer:  A
 ---
 
 ## Q102
-Which two statements about 802.1 x authentications with EAP are true? (Choose two)
+Which two statements about 802.1x authentications with EAP are true? (Choose two)
   
 A.The supplicant and authenticator server send a one-time password to the authenticator   
 B.The authenticator server translates frames from the supplicant into a RADIUS message   
@@ -1263,7 +1263,7 @@ C.The authenticator can cache the username and password from the authentication 
 D.The interface passes only EAPOL traffic until the client is authenticated   
 E.It uses EAPOL frames between the supplicant and the authenticator
 
-Answer:  C D 
+Answer:  B, E 
 
 ---
 
@@ -1576,7 +1576,8 @@ Answer:  D
 Drag and drop each IS-IS PDU type from the left onto its purpose on the right  
 ![exhibit][q127]
 
-Answer: 3, 2, 4, 1
+Answer: 1, 2, 4, 3
+URL: https://sites.google.com/site/amitsciscozone/home/is-is/is-is-packets
 
 ---
 
@@ -1649,6 +1650,7 @@ C.Configuring SSM
 D.Configuring PIM6
 
 Answer:  D
+URL: http://dtdccie.blogspot.com/2015/03/mld-multicast-listener-discovery.html
 
 ---
 
@@ -1718,14 +1720,6 @@ F.It blocks BPDUs from unknown devices
 
 Answer:  A, B  
 URL: https://www.cisco.com/c/en/us/support/docs/lan-switching/spanning-tree-protocol/10588-74.html
-
----
-
-## Q140
-Drag and drop the EIGRP query condition on the left to the corresponding action taken by the router on the right  
-![exhibit][q140]
-
-Answer: 2:1, 4:2, 1:3, 2:4  
 
 ---
 
@@ -2655,18 +2649,6 @@ Answer:  A, B
 
 ---
 
-## Q219
-Which interface configuration task enables MLD on the interface? 
-
-A.setting an IPv6 address  
-B.enabling SSM  
-C.enabling IGMPv3  
-D.configuring PIM6
-
-Answer:  B  
-
----
-
 ## Q220
 In which scenario can you host the most instances on a server? 
 
@@ -2721,14 +2703,6 @@ Answer:  B, D
 
 ---
 
-## Q224
-Drag and drop the EIGRP query condition on the left to the corresponding action taken by the router on the right. 
-![exhibit][q224]
-
-Answer: 2:1, 4:2, 1:3, 2:4 
-
----
-
 ## Q225
 Which packet is sent out by the DIS in IS-IS? 
 
@@ -2764,19 +2738,6 @@ E.Application containerization
 F.Container Stack G. Shared Kernel 
 
 Answer:  A, C, E  
-
----
-
-## Q228
-Which two statements about 802.1x authentication with EAP are true? (Choose two) 
-
-A.The interface passes only EAPOL traffic until the client has authenticated  
-B.The authenticator can cache the username and password from the authentication server to reduce traffic  
-C.The supplicant and authenticator server send a one-time password to the authenticator  
-D.The authenticator server translates frames from the supplicant into a RADIUS message  
-E.It uses EAPOL fromes between the supplicant and the authenticator
-
-Answer:  A, E  
 
 ---
 
@@ -2959,7 +2920,7 @@ D.Troubleshoot
 E.Analyze   
 F.Formalize
 
-Answer:
+Answer: C, B, F
 
 ---
 
@@ -2984,7 +2945,7 @@ B.bgp bestpath as-path ignore
 C.bgp bestpath as-path multipath relax   
 D.bgp bestpath compare-all  
 
-Answer:  B, D
+Answer:  B, C
 
 ---
 
@@ -3289,34 +3250,6 @@ Answer:  B, C, F
 
 ---
 
-## Q267
-Which three campus fabric nodes in SD-access architecture are true ?
-
-A.fabric border nodes  
-B.fabric wireless access points  
-C.fabric edge nodes  
-D.virtual edge nodes  
-E.control plane nodes  
-F.data plane nodes  
-
-Answer:
-
----
-
-## Q268
-Which three basic types of SD-wan deployments are out on the market ?
-
-A.managed service SD-wan  
-B.internet-based SD-wan  
-C.SD-wan as-a service  
-D.secure sd-wan service  
-E.MPLS-based  
-F.Policy-based SD-wan  
-
-Answer:
-
----
-
 ## Q269
 Which three connectivity models for vEdge site architecture are true ?
 
@@ -3583,20 +3516,6 @@ Answer: A, C
 
 ---
 
-## Q285
-Which three connectivity models for vEdge Site Architecture are true? (Choose three)   
-
-A.Augmentation model  
-B.Hybrid with FallBack  
-C.Secure tunnel  
-D.Secure virtual connectivity  
-E.Cloud provider  
-F.Full SD-WAN         
-
-Answer: B, C, E                              
-
----
-
 ## Q286
 What command can you enter to configure NBAR to recognize VNC traffic?   
 
@@ -3645,7 +3564,6 @@ E.Metric
 F.IP subnet      
 
 Answer: D,E,F                                  
-
 ---
 
 ## Q290
@@ -3658,7 +3576,7 @@ D.The capture file export location
 E.The capture filter  
 F.The buffer memory size           
 
-Answer: A, F                          
+Answer: A, C                          
 
 ---
 
@@ -3700,7 +3618,7 @@ D.The routers must share a common Autonomous System Number
 E.The router must share a common network segment  
 F.The routers must be configured with the neighbor command     
 
-Answer: A, E                                   
+Answer: B, E                                   
 
 ## Q294
 ![exhibit][q294]  
@@ -3724,7 +3642,7 @@ B. Through router C because it has higher local preference
 C. Through router B because the default local preference is 500 and higher than router C   
 D. Will load balance both because routers have a same Med value             
 
-Answer: A                            
+Answer: C                            
 
 ---
 
@@ -3742,6 +3660,32 @@ Drag and drop each IS-IS router type from the left onto the best matching OSPF r
 
 Answer:                                                                                   
 ![exhibit][q297a]  
+
+---
+
+## Q298
+Which two statements about HDLC are true? (Choose two)  
+
+A. The packet header contains the control field and address  
+B. It supports clear-text authentication  
+C. It is a frame-oriented data link layer protocol  
+D. It guarantees error-free transmission  
+E. It supports both synchronous and asynchronous serial links  
+
+Answer: A, E
+
+---
+
+## Q299
+Which two circumstances can cause unicast flooding? (Choose two)  
+
+A. Multiple STP topology change events  
+B. Implementing uRPF on the network  
+C. Symmetrical routing  
+D. MAC table overflow  
+E. Multiple broadcast frames  
+
+Answer: B, D
 
 
 [q2]: exhibits/q2.jpg "Q2 exhibit"
