@@ -2945,7 +2945,7 @@ B.bgp bestpath as-path ignore
 C.bgp bestpath as-path multipath relax   
 D.bgp bestpath compare-all  
 
-Answer:  B, D
+Answer:  B, C
 
 ---
 
