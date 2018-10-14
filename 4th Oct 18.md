@@ -738,7 +738,7 @@ C.Operational Management
 D.Limited management tools   
 E.Vendor lock-in
 
-Answer:  B 
+Answer:  A 
 
 ---
 
@@ -1992,18 +1992,6 @@ Answer:  A
 ---
 
 ## Q165
-Which statement about BGP synchronization rule is true? 
-  
-A.A BGP router with synchronization enabled does not advertise its eBGP learned routes to its iBGP peers unless it has learned or verified this route on its routing table through a IGP   
-B.A BGP router with synchronization enabled does not advertise its eBGP learned routes to its eBGP peers unless it has learned or verified this route on its routing table through an IGP   
-C.A BGP router with synchronization enabled does not advertise its BGP learned routes to its iBGP peers unless it has learned or verified this route on its routing table through an iGP   
-D.A BGP router with synchronization enabled does not advertise its iBGP learned routes to its eBGP peers unless it has learned or verified this route on its routing table an IGP
-
-Answer:  D
-
----
-
-## Q165
 Which two statements about HDLC operations in asynchronous balanced mode are true? (Choose two)
   
 A.Each device must negotiate with its neighbors before sending frames   
@@ -2724,20 +2712,6 @@ C.Make sure that all end systems are connected to the network with a single phys
 D.Configure the switch forwarding cache (CAM) timers to be longer that the ARP cache timers  
 
 Answer:  D  
-
----
-
-## Q227
-Which three terms are used to describe an OS-level virtualization method for deploying and running distributed applications? (Choose three) 
-  
-A.Containerization  
-B.Container networking  
-C.Container-based virtualization  
-D.Virtualized networking  
-E.Application containerization  
-F.Container Stack G. Shared Kernel 
-
-Answer:  A, C, E  
 
 ---
 
