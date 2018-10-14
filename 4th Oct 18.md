@@ -1255,7 +1255,7 @@ Answer:  A
 ---
 
 ## Q102
-Which two statements about 802.1 x authentications with EAP are true? (Choose two)
+Which two statements about 802.1x authentications with EAP are true? (Choose two)
   
 A.The supplicant and authenticator server send a one-time password to the authenticator   
 B.The authenticator server translates frames from the supplicant into a RADIUS message   
@@ -1263,7 +1263,7 @@ C.The authenticator can cache the username and password from the authentication 
 D.The interface passes only EAPOL traffic until the client is authenticated   
 E.It uses EAPOL frames between the supplicant and the authenticator
 
-Answer:  C D 
+Answer:  B, E 
 
 ---
 
@@ -1649,6 +1649,7 @@ C.Configuring SSM
 D.Configuring PIM6
 
 Answer:  D
+URL: http://dtdccie.blogspot.com/2015/03/mld-multicast-listener-discovery.html
 
 ---
 
@@ -2655,18 +2656,6 @@ Answer:  A, B
 
 ---
 
-## Q219
-Which interface configuration task enables MLD on the interface? 
-
-A.setting an IPv6 address  
-B.enabling SSM  
-C.enabling IGMPv3  
-D.configuring PIM6
-
-Answer:  B  
-
----
-
 ## Q220
 In which scenario can you host the most instances on a server? 
 
@@ -2764,19 +2753,6 @@ E.Application containerization
 F.Container Stack G. Shared Kernel 
 
 Answer:  A, C, E  
-
----
-
-## Q228
-Which two statements about 802.1x authentication with EAP are true? (Choose two) 
-
-A.The interface passes only EAPOL traffic until the client has authenticated  
-B.The authenticator can cache the username and password from the authentication server to reduce traffic  
-C.The supplicant and authenticator server send a one-time password to the authenticator  
-D.The authenticator server translates frames from the supplicant into a RADIUS message  
-E.It uses EAPOL fromes between the supplicant and the authenticator
-
-Answer:  A, E  
 
 ---
 
@@ -3602,7 +3578,7 @@ D.Subnet mask
 E.Metric  
 F.IP subnet      
 
-Answer: C                                  
+Answer: D, E, C                                 
 
 ---
 
