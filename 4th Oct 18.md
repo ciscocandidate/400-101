@@ -3647,7 +3647,7 @@ C. It is a frame-oriented data link layer protocol
 D. It guarantees error-free transmission  
 E. It supports both synchronous and asynchronous serial links  
 
-Answer: A, E
+Answer: A, C
 
 ---
 
