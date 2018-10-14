@@ -2959,7 +2959,7 @@ D.Troubleshoot
 E.Analyze   
 F.Formalize
 
-Answer:
+Answer: C, B, F
 
 ---
 
@@ -3289,34 +3289,6 @@ Answer:  B, C, F
 
 ---
 
-## Q267
-Which three campus fabric nodes in SD-access architecture are true ?
-
-A.fabric border nodes  
-B.fabric wireless access points  
-C.fabric edge nodes  
-D.virtual edge nodes  
-E.control plane nodes  
-F.data plane nodes  
-
-Answer:
-
----
-
-## Q268
-Which three basic types of SD-wan deployments are out on the market ?
-
-A.managed service SD-wan  
-B.internet-based SD-wan  
-C.SD-wan as-a service  
-D.secure sd-wan service  
-E.MPLS-based  
-F.Policy-based SD-wan  
-
-Answer:
-
----
-
 ## Q269
 Which three connectivity models for vEdge site architecture are true ?
 
@@ -3583,20 +3555,6 @@ Answer: A, C
 
 ---
 
-## Q285
-Which three connectivity models for vEdge Site Architecture are true? (Choose three)   
-
-A.Augmentation model  
-B.Hybrid with FallBack  
-C.Secure tunnel  
-D.Secure virtual connectivity  
-E.Cloud provider  
-F.Full SD-WAN         
-
-Answer: B, C, E                              
-
----
-
 ## Q286
 What command can you enter to configure NBAR to recognize VNC traffic?   
 
@@ -3700,7 +3658,7 @@ D.The routers must share a common Autonomous System Number
 E.The router must share a common network segment  
 F.The routers must be configured with the neighbor command     
 
-Answer: A, E                                   
+Answer: B, E                                   
 
 ## Q294
 ![exhibit][q294]  
