@@ -3563,8 +3563,7 @@ D.Subnet mask
 E.Metric  
 F.IP subnet      
 
-Answer: D, E, C                                 
-
+Answer: D,E,F                                  
 ---
 
 ## Q290
