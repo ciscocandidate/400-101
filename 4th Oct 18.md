@@ -209,7 +209,7 @@ URL: https://networklessons.com/ospf/ospf-packets-and-neighbor-discovery/
 ---
 
 ## Q17 
-Refer to the exhibit. To which undesirable condition can router R1 be vulnerable? 
+Refer to the exhibit. To which undesirable condition can router R1 be vulnerable?  
 ![exhibit][q17]
   
 A.Denial of service attacks    
@@ -1576,7 +1576,7 @@ Answer:  D
 Drag and drop each IS-IS PDU type from the left onto its purpose on the right  
 ![exhibit][q127]
 
-Answer: 1, 2, 4, 3
+Answer: 1, 2, 4, 3  
 URL: https://sites.google.com/site/amitsciscozone/home/is-is/is-is-packets
 
 ---
@@ -2891,9 +2891,9 @@ Refer to the exhibit. Which two configurations must you apply to the master cont
 A.![exhibit][q238a]  
 B.![exhibit][q238b]  
 C.![exhibit][q238c]  
-D.![exhibit][q238d]
+D.![exhibit][q238d]  
 
-Answer:  B  
+Answer:  B, C
 
 ---
 
@@ -2937,7 +2937,7 @@ Answer:  D
 ---
 
 ## Q242 
-Refer to the exhibit. When a question mark is entered after bgp bestpath, only three options are visible. Which two BGP hidden options for the bgp bestpath command are valid? (Choose two)
+Refer to the exhibit. When a question mark is entered after bgp bestpath, only three options are visible. Which two BGP hidden options for the bgp bestpath command are valid? (Choose two)  
 ![exhibit][q242]
   
 A.bgp bestpath localpref ignore   
