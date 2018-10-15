@@ -2032,18 +2032,6 @@ Answer:  E
 
 ---
 
-## Q168
-How can you prevent routing loops when performing mutual redistribution between two OSPF domains on multiple routers?
-  
-A.No action is required, OSPF prevents routing loops by design   
-B.Make sure that the redistributing routers are members of Area 0 in both OSPF domains   
-C.Redistribute only external routers between the OSPF domains   
-D.Prevent routes from being redistributed into their original OSPF domain
-
-Answer:  D  
-
----
-
 ## Q169
 Which two statements about IPv6 PACLs are true? (Choose two)
   
@@ -2483,33 +2471,6 @@ Answer:  A, C
 
 ---
 
-## Q206
-Which three configuration settings must match for switches to be in the same MST region? (Choose three)
-  
-A.Region name   
-B.Password   
-C.VLSN-to-instance assignment   
-D.Domain name   
-E.Revision number   
-F.VLAN names 
-
-Answer:  A, C, E  
-
----
-
-## Q207
-Which two options are restrictions of BGP Outbound Route Filtering? (Choose two.)
-  
-A.It requires access lists to match routes.   
-B.It can be used only with eBGP.   
-C.It can be used only with iBGP.   
-D.It can be used only with IPv4 multicast.   
-E.Multicast is not supported.
-
-Answer : B, E  
-
----
-
 ## Q208
 Which attribute is not part of the BGP extended community when a PE creates a VPN-IPv4 route while running OSPF between PE-CE? 
   
@@ -2637,19 +2598,6 @@ Answer:  A, B
 
 ---
 
-## Q220
-In which scenario can you host the most instances on a server? 
-
-A.Using microservices application  
-B.Using virtual machines in containers  
-C.Using only containers  
-D.Using only virtual machines  
-E.Using containers in virtual machines  
-
-Answer:  C  
-
----
-
 ## Q221
 Which two options are requirements to implement 6VPE? (Choose two) 
 
@@ -2664,33 +2612,6 @@ Answer:  E, F
 
 ---
 
-## Q222
-Which are three basic elements of Cisco Performance Monitor? (Choose three) 
-
-A.master controller  
-B.class  
-C.SLA  
-D.policy  
-E.border router  
-F.flow record
-
-Answer:  B, D, F  
-
----
-
-## Q223
-Which two statements about PPP CHAP authentication are true? (Choose two) 
-
-A.It supports clear-text passwords  
-B.It uses a configured username and password to authenticate to a host  
-C.It uses a secret password, which is sent acress the link for authentication  
-D.It is a one-way authentication method  
-E.It is configurable only on PPP callout links
-
-Answer:  B, D  
-
----
-
 ## Q225
 Which packet is sent out by the DIS in IS-IS? 
 
@@ -2700,18 +2621,6 @@ C.LSDB
 D.PSNP
 
 Answer:  B 
-
----
-
-## Q226
-What mechanism should you choose to prevent unicast flooding? 
-
-A.Configure the ARP cache timers to be longer than the switch forwarding cache (CAM) timers  
-B.Use control plane policing (CPP) to limit unicast flooding  
-C.Make sure that all end systems are connected to the network with a single physical connection  
-D.Configure the switch forwarding cache (CAM) timers to be longer that the ARP cache timers  
-
-Answer:  D  
 
 ---
 
