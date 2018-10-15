@@ -3393,7 +3393,7 @@ B. Down
 C. Init  
 D. AdminDown       
 
-Answer: B                                                    
+Answer: C                                                    
 
 ---
 
