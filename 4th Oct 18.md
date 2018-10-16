@@ -2842,7 +2842,7 @@ D.EPL provides a point-to-point multipoint service
 E.EP-LAN provides a single multipath LAN services to attached customers locations.   
 F.EVPL uses 802.1Q tagging to differentiate between multiple private lines on an UNI
 
-Answer:  B, E 
+Answer:  E, F 
 
 ---
 
