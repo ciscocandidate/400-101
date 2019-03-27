@@ -1526,7 +1526,7 @@ Refer to the Exhibit. Which two statements about the given MPLS VPN ate true? (C
 A.It includes four CE routers.   
 B.Router A and router 1 must be BGP neighbors.   
 C.It includes four P routers.   
-D.It includes two CEs and two Pes.   
+D.It includes two CEs and two PEs.   
 E.Only one connection is outside the ISP network. 
 
 Answer:  C D 
