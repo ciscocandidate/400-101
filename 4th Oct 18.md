@@ -13,7 +13,7 @@ Answer:  A, B
 ---
 
 ## Q2 
-Refer to the exhibit. Which three statements correctly describe the route reflector's behavior? (Choose two.)  
+Refer to the exhibit. Which three statements correctly describe the route reflector's behavior? (Choose three.)  
 ![exhibit][q2]
   
 A.The route reflector will not reflect routes from R3 to R1    
@@ -24,7 +24,7 @@ E.The route reflector will reflect routes from R1 to R3
 F.The route reflector will not reflect routes from R1 to R2  
 
 
-Answer:  B E F 
+Answer:  A, D, E
 
 ---
 
@@ -584,7 +584,7 @@ Answer:  C
 ---
 
 ## Q46
-Refer to the exhibit. Which additional configuration statement is required on R3 in order to allow multicast traffic sourced from 192.168.13.3 to flow along the shared-tree?  
+Refer to the exhibit. Which additional configuration statement is required on R3 in order to allow multicast traffic sourced from 192.168.14.1 to flow along the shared-tree?  
 ![exhibit][q46]
   
 A.ip mroute 10.4.4.4 255.255.255.255 Tunnel 0   
@@ -592,7 +592,7 @@ B.ip route 10.4.4.4 255.255.255.255 Tunnel 0
 C.ip route 192.168.14.0 255.255.255.0 Tunnel 0   
 D.ip mroute 192.168.14.0 255.255.255.0 Tunnel 0
 
-Answer:  A 
+Answer:  D 
 
 ---
 
@@ -1526,7 +1526,7 @@ Refer to the Exhibit. Which two statements about the given MPLS VPN ate true? (C
 A.It includes four CE routers.   
 B.Router A and router 1 must be BGP neighbors.   
 C.It includes four P routers.   
-D.It includes two CEs and two Pes.   
+D.It includes two CEs and two PEs.   
 E.Only one connection is outside the ISP network. 
 
 Answer:  C D 
@@ -2187,10 +2187,10 @@ Answer:  B, E
 ## Q183
 Which feature can you implement to most effectively protect customer traffic in a rate-limited WAN Ethernet service?
   
-A.Q-in-0   
-B.OiffServ   
+A.Q-in-Q   
+B.DiffServ   
 C.HCBWFQ   
-D.lntServ with RSVP   
+D.IntServ with RSVP   
 E.The IPsec VTI qos pre-classify command
 
 Answer:  C  
@@ -2367,13 +2367,13 @@ Answer:  A, C, D
 ## Q198
 Which two statements about marking fields are true? (Choose two)
   
-A.The 3 priority bits are in 802.10/P.   
+A.The 3 priority bits are in 802.1Q/P.   
 B.The Frame Relay OE field is in the IP header and is 1 bit long.   
 C.The IP DSCP field is in the IP header and is 6 bits long.   
 D.The ToS 6 bits are in the IP header   
 E.The IP Precedence field is in the IP header and is 4 bits long.
 
-Answer:  C, D
+Answer:  A, C
 
 ---
 
@@ -2976,7 +2976,7 @@ C.It applies the policy
 D.It enforces the traffic path   
 E.It provides network visibility
 
-Answer:  C, ...
+Answer:  A, C
 
 ---
 
@@ -2990,7 +2990,7 @@ D.It is triggered when multiple routers connected to a common LAN segment receiv
 E.It elects the device with the lowest administrative distance to the multicast source as the PIM Designated Router   
 F.It is triggered when multiple routers connected to a common LAN segment forward the same multicast packet
 
-Answer:  D, F 
+Answer:  B, F
 
 ---
 
@@ -3089,7 +3089,7 @@ B.Cisco Prime Infrastructure
 C.Cisco Network Control System  
 D.Cisco Fog Director
 
-Answer:  B 
+Answer:  D
 
 ---
 
@@ -3290,8 +3290,9 @@ D. The default configuration sends cisco Discovery Protocol, STP, and, VTP infor
 E. It is supported on private VLAN ports  
 F. It requires a system MTU of at least 1504 bytes       
 
-Answer: A, E                                                 
+Answer: A, F 
 
+URL: https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst6500/ios/12-2SX/configuration/guide/book/dot1qtnl.html
 ---
 
 ## Q277
@@ -3302,7 +3303,7 @@ B. Down
 C. Init  
 D. AdminDown       
 
-Answer: B                                                    
+Answer: C                                                    
 
 ---
 
@@ -3556,7 +3557,7 @@ C. It is a frame-oriented data link layer protocol
 D. It guarantees error-free transmission  
 E. It supports both synchronous and asynchronous serial links  
 
-Answer: A, C
+Answer:  A, C
 
 ---
 
@@ -3569,8 +3570,99 @@ C. Symmetrical routing
 D. MAC table overflow  
 E. Multiple broadcast frames  
 
-Answer: A, D
+Answer:  A, D
 
+---
+
+## Q300
+Which two configuration options are available for PIM snooping?  
+
+A.Globally on the device  
+B.Under the VLAN in VLAN configuration mode  
+C.Under the SVI for the corresponding vlan  
+D.On a specific interface on the device  
+E.On a range of interfaces on the device  
+
+Answer:  A, C
+
+---
+
+## Q301
+Which two pieces of information are returned by the show ipv6 mld snooping querier command? (Choose two)  
+
+A.Incoming interface  
+B.learned group information  
+C.MLD snooping querier configuration  
+D.IPv6 address information  
+
+Answer:  A, D
+
+---
+
+## Q302
+Which two statements about the OSPF two-way neighbor state are true? (Choose two)  
+
+A.Each neighbor receives its own router ID in a hello packet from the other neighbor  
+B.Each neighbor receives a hello message from the other neighbor  
+C.It is valid only on NBMA networks  
+D.It is valid only on point-to-point networks
+E.Each neighbor receives an acknowledgement of its won hello packet from the other neighbor  
+F.Each neighbor receives the router ID of the other neighbor in a hello packet from the other neighbor  
+
+Answer:  A, E
+
+---
+
+## Q303
+Which TCP feature allows a client to request a specific packet that was lost?  
+
+A. flow control  
+B. sliding window  
+C. fast recovery  
+D. selective acknowledgment  
+
+Answer:  D
+
+---
+
+## Q304
+Which two statements about DMVPN with NHRP are true? (Choose two)  
+
+A. NHRP shortens the configuration of the hub router.  
+B. NHRP dynamically provides information about the spoke routers to the hub.  
+C. NHRP disables multicast  
+D. The hub router uses NHRP to initiate the GRE tunnel with spokes.  
+E. The spoke routers act as the NHRP servers.  
+
+Answer:  A, B 
+
+---
+
+## Q305
+You are tasked to design a QoS policy for a service provider so they can include it in the design of their MPLS core network. If the design must support an MPLS network with six classes, and CEs will be managed by the service provider, which QoS policy should be recommended?  
+
+A. map DSCP bits into the Exp field  
+B. map IP precedence bits into the DSCP field  
+C. map flow-label bits into the Exp field  
+D. map IP CoS bits into the IP Precedence field  
+E. map IP ToS bits into the Exp field  
+
+Answer:  A 
+
+---
+
+## Q306
+Which two statements about VRF lite are true? (Choose two)
+
+A. An isolated VRF routing table is created for each VRF.  
+B. A single customer VRF can support overlapping IP addresses.  
+C. Multiple ISP customers can be supported on one customer edge device.  
+D. Two or more VRFs can be assigned to a single Layer 3 interface.  
+E. At least one physical interface must be configured to enable a VRF.  
+
+Answer:  A, C
+
+---
 
 [q2]: exhibits/q2.jpg "Q2 exhibit"
 [q6]: exhibits/q6.jpg "Q6 exhibit"
